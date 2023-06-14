@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+  }
+  
+  #main-login {
+    height: 100vh;
+  }
+  
+  #title-login {
+    margin-top: 0px;
+    margin-left: -150px;
+    color: white;
+  }
+  
+  #main-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #section-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(59, 59, 59);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-form {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 25px;
+  }
+  
+  #button-sign-in {
+    align-self: center;
+    background-color:rgb(62, 185, 202);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  
+  .cta-login-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-redirect {
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  
