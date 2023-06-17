@@ -106,4 +106,6 @@ body{
     background: #78D4DA;
     border: 1px solid #000000;
     border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
