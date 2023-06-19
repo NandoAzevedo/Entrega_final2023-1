@@ -1,0 +1,45 @@
+
+.retangulo_escrita{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    margin: 20px;
+    margin-left: 30px;
+   
+}
+ .titulo{
+    margin-left: 30px;
+ 
+ }
+
+ .registrar{
+    margin: 20px;
+    margin-left: 7vh;
+    width: 264.63px;
+    height: 49px;
+    left: 888.27px;
+    top: 636.14px;
+    font-weight: 700;
+    color: white;
+    background: #78D4DA;
+    border: 1px white;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#voltar{
+    margin: 10px;
+  margin-left: 22vh;
+position: absolute;
+color:rgb(82, 131, 223)
+}
+
+    body{
+        background-image: url(WhatsApp\ Image\ 2023-06-17\ at\ 11.01.48.jpeg);
+        width: 10vw;
+        height: 20vh;
+        margin:0% ;
+        background-repeat: no-repeat;
+    }
