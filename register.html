@@ -1,59 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="register.css">
-</head>
-<script src="register.js"></script>
-<body>
+    <link rel="stylesheet" href="CSS/register.css" />
+  </head>
+  <script src="register.js"></script>
+  <body>
     <h1 class="titulo">Preencha seus dados</h1>
     <div class="detalhe_topo"></div>
     <div class="preencher">
-        <div class="quadrados_esquerda">
-            <div class="quadrado">
-                <label for="nome" class="info">Nome</label>
-                <input placeholder="Digite seu nome" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadrado">
-                <label for="nome" class="info">Email</label>
-                <input placeholder="Digite seu email" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadrado">
-                <label for="nome" class="info">Data de nascimento</label>
-                <input placeholder="Digite sua data de nascimento" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadrado">
-                <label for="nome" class="info">CPF</label>
-                <input placeholder="Digite seu CPF" class="retangulo_escrita" type="text">
-            </div>
+      <div class="quadrados_esquerda">
+        <div class="quadrado">
+          <label for="nome" class="info">Nome</label>
+          <input
+            placeholder="Digite seu nome"
+            class="retangulo_escrita"
+            type="text"
+          />
         </div>
-        <div class="risco"></div>
-        <div class="quadrados_direita">
-            <div class="quadrado">
-                <label for="nome" class="info">Nacionalidade</label>
-                <input placeholder="Digite sua nacionalidade" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadrado">
-                <label for="nome" class="info">Senha</label>
-                <input placeholder="Digite sua senha" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadrado">
-                <label for="nome" class="info">Repita sua senha</label>
-                <input placeholder="Repita sua senha" class="retangulo_escrita" type="text">
-            </div>
-            <div class="quadradot">
-                <input type="checkbox" class="concordo">
-                <label class="termo" for="termo">Li e concordo com os termos de uso</label>
-            </div>
-            <div class="quadradot">
-                <a class= "termol" href="">Termos de uso</a>
-            </div>
-            <div class="quadradot">
-                <button class="registrar">Finalizar Cadastro</button>
-            </div>
+        <div class="quadrado">
+          <label for="nome" class="info">Email</label>
+          <input
+            placeholder="Digite seu email"
+            class="retangulo_escrita"
+            type="email"
+          />
         </div>
+        <div class="quadrado">
+          <label for="nome" class="info">Data de nascimento</label>
+          <input
+            placeholder="Digite sua data de nascimento"
+            class="retangulo_escrita"
+            type="date"
+          />
+        </div>
+        <div class="quadrado">
+          <label for="cpf" class="info">CPF</label>
+          <input
+          id="cpf"  
+          placeholder="Digite seu CPF(apenas numeros)"
+            class="retangulo_escrita"
+            type="text"
+            oninput="formatarCPF()"
+            maxlength="14">
+        </div>
+      </div>
+      <div class="risco"></div>
+      <div class="quadrados_direita">
+        <div class="quadrado">
+          <label for="nome" class="info">Nacionalidade</label>
+          <input
+            placeholder="Digite sua nacionalidade"
+            class="retangulo_escrita"
+            type="text"
+          />
+        </div>
+        <div class="quadrado">
+          <label for="nome" class="info">Senha</label>
+          <input
+            placeholder="Digite sua senha"
+            class="retangulo_escrita"
+            type="password"
+          />
+        </div>
+        <div class="quadrado">
+          <label for="nome" class="info">Repita sua senha</label>
+          <input
+            placeholder="Repita sua senha"
+            class="retangulo_escrita"
+            type="password"
+          />
+        </div>
+        <div class="quadradot">
+          <input type="checkbox" class="concordo" />
+          <label class="termo" for="termo"
+            >Li e concordo com os termos de uso</label
+          >
+        </div>
+        <div class="quadradot">
+          <a class="termol" href="">Termos de uso</a>
+        </div>
+        <div class="quadradot">
+          <button class="registrar">Finalizar Cadastro</button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
