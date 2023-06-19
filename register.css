@@ -22,7 +22,7 @@ body{
 
     .titulo{
     position: relative;
-    font-weight: 100vw;
+    font-weight: 50px;
     font-size: 3.4375rem;
     line-height: 100px;
     display: flex;
