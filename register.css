@@ -9,8 +9,8 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 85rem;
-    height: 8.500rem;
+    width: 90vw;
+    height: 125px;
     margin-left: 2.5rem;
     margin-top: -140px;
     background: #E2E2E2;
@@ -22,9 +22,9 @@ body{
 
     .titulo{
     position: relative;
-    font-weight: 3.125rem;
+    font-weight: 100vw;
     font-size: 3.4375rem;
-    line-height: 4.1875rem;
+    line-height: 100px;
     display: flex;
     justify-content: center;
     color: #006283;
@@ -32,8 +32,10 @@ body{
     z-index: 2;
 }
 .retangulo_escrita{
-    width: 300px;
-    height: 20px;
+    position: relative;
+    display: flex;
+    width: 23vw;
+    height: 3vh;
     padding: 10px;
     background-color: lightgray;
 
