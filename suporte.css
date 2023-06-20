@@ -1,25 +1,28 @@
 body {
-  margin: 0;
-  margin: 0;
+  margin: 0px;
   overflow-x: hidden;
   overflow: hidden;
+  
 }
 #serviço {
   margin-left: 20px;
   color: white;
   display: flex;
   position: absolute;
-  top: 0px;
+  top: -10px;
 }
 
 #folder {
+    position: relative;
   background-color: black;
-  width: 1360px;
+  width: 1370px;
   height: 50px;
   display: flex;
+  top: -15px;
 }
 .pesquisa {
-  position: static;
+    top: -10px;
+  position: relative;
   display: flex;
   margin-left: 250px;
   margin-top: -55px;
@@ -61,7 +64,7 @@ body {
   height: 50px;
 }
 button {
-    width: 100px;
+  width: 100px;
   background-color: black;
   border-radius: 8px;
   color: white;
@@ -141,9 +144,131 @@ button {
   height: 250px;
 }
 
-#risco{
-    position: relative;
-    top:-1360px;
-    left: 1290px;
-    height: 40px;
+#risco {
+  position: relative;
+  top: -1370px;
+  left: 1290px;
+  height: 40px;
 }
+
+footer {
+  width: 1370px;
+  position: relative;
+  top: -900px;
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  top: 250px;
+  max-width: 960px;
+  margin: 0px;
+  text-align: center;
+}
+#logo {
+  position: relative;
+  top: 175px;
+}
+
+#copy {
+  height: 34px;
+  top: 150px;
+  left: -210px;
+  position: relative;
+  color: white;
+  background-color: black;
+  width: 1375px;
+}
+#inicio {
+  position: relative;
+  top: 35px;
+  left: -660px;
+  color: white;
+}
+#inicio1 {
+  position: relative;
+  top: 25px;
+  left: -620px;
+
+  color: white;
+}
+#inicio2 {
+  position: relative;
+  top: 45px;
+  left: -700px;
+
+  color: white;
+}
+#sobre {
+  position: relative;
+  top: -30px;
+  left: -400px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+#sobre1 {
+  position: relative;
+  top: -40px;
+  left: -400px;
+  color: white;
+}
+
+#sobre2 {
+  position: relative;
+  top: -45px;
+  left: -400px;
+  color: white;
+}
+
+#sup {
+  position: relative;
+  top: -120px;
+  left: -250px;
+  color: white;
+}
+#sup1 {
+  position: relative;
+  top: -130px;
+  left: -250px;
+  color: white;
+}
+
+#sup2 {
+  position: relative;
+  top: -129px;
+  left: -250px;
+  color: white;
+}
+#face {
+  width: 50px;
+  height: 50px;
+  left: 490px;
+  top: -220px;
+  position: relative;
+}
+#redes {
+  position: relative;
+  top: -200px;
+  left: 490px;
+}
+#linkedin {
+    width: 40px;
+   height: 40px;
+   left: 470px;
+   top: -228px;
+   position: relative;
+ }
+
+ #twitter {
+    width: 30px;
+   height: 30px;
+   left: 470px;
+   top: -228px;
+   position: relative;
+ }
