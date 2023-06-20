@@ -116,29 +116,29 @@ button {
   position: relative;
   top: -80px;
 }
-#textoajuda{
-    display: flex;
-    position: relative;
-    top: -800px;
-    left: 850px;
-    font-size: 20px;
+#textoajuda {
+  display: flex;
+  position: relative;
+  top: -800px;
+  left: 850px;
+  font-size: 20px;
 }
 
-#textoajuda1{
-    display: flex;
-    position: relative;
-    top: -820px;
-    left: 870px;
-    font-size: 17px;
+#textoajuda1 {
+  display: flex;
+  position: relative;
+  top: -820px;
+  left: 870px;
+  font-size: 17px;
 }
 
-#faceboock{
-    position: relative;
-    display: flex;
-    top: -990px;
-    left: 800px;
-    width: 300px;
-    height: 250px;
+#faceboock {
+  position: relative;
+  display: flex;
+  top: -990px;
+  left: 800px;
+  width: 300px;
+  height: 250px;
 }
 
 #risco{
