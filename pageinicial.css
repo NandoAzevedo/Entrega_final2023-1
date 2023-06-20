@@ -1,0 +1,401 @@
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#serviço {
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: -10px;
+}
+
+#folder {
+  position: relative;
+  background-color: black;
+  width: 1370px;
+  height: 50px;
+  display: flex;
+  top: -15px;
+}
+.pesquisa {
+  top: -10px;
+  position: relative;
+  display: flex;
+  margin-left: 250px;
+  margin-top: -55px;
+  border-radius: 8px;
+  width: 200px;
+  height: 23px;
+  color: black;
+}
+
+Section {
+  display: inline-block;
+}
+
+.Caixa-cinza {
+  width: 45vw;
+  height: 70vh;
+  background-color: grey;
+  border-radius: 10px;
+  left: 20px;
+  top: -30px;
+  position: relative;
+}
+.Bloco {
+  position: relative;
+  display: flex;
+  margin-top: -2px;
+  margin-left: 15px;
+  width: 38vw;
+  height: 14vh;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#Titulo {
+  position: relative;
+  display: flex;
+  text-align: right;
+  margin-top: 0.2%;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.Subtitulo {
+  position: relative;
+  text-align: left;
+  margin-top: 29px;
+  margin-left: -135px;
+  font-family: "Inter";
+  font-style: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  width: 15vw;
+  height: 5vh;
+}
+.Bloco2 {
+  position: relative;
+  display: flex;
+  margin-top: -2px;
+  margin-left: 15px;
+  width: 38vw;
+  height: 14vh;
+  background-color: #dfdfdf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#Titulo2 {
+  position: relative;
+  display: flex;
+  text-align: right;
+  margin-top: 0;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 70;
+  font-size: 17px;
+
+  color: #000000;
+}
+
+.Subtitulo2 {
+  position: relative;
+  text-align: left;
+  margin-top: 45px;
+  margin-left: -100px;
+  font-family: "Inter";
+  font-style: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  width: 15vw;
+}
+.Cadastro {
+  margin-top: 39.5px;
+  margin-left: 60px;
+  text-align: center;
+  height: 7vh;
+  width: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.Bloco3 {
+  position: relative;
+  display: flex;
+  margin-top: -2px;
+  margin-left: 15px;
+  width: 38vw;
+  height: 14vh;
+  background-color: #a8a8a8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#Titulo3 {
+  position: relative;
+  display: flex;
+  text-align: right;
+  margin-top: 0.2%;
+  left: -350px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: red;
+}
+
+.Subtitulo3 {
+  position: relative;
+  text-align: left;
+  margin-top: 45px;
+  margin-left: -70px;
+  font-family: "Inter";
+  font-style: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  width: 15vw;
+}
+#pesquisar {
+  margin-top: -65px;
+  margin-left: -90px;
+  text-align: center;
+  height: 7vh;
+  width: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+
+  color: #ffffff;
+
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#enviar {
+  margin-top: 40.5px;
+  margin-left: 60px;
+  text-align: center;
+  height: 7vh;
+  width: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+
+  color: #ffffff;
+
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.Bloco4 {
+  position: relative;
+  display: flex;
+  margin-top: -2px;
+  margin-left: 15px;
+  width: 38vw;
+  height: 14vh;
+  background-color: #757575;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#Titulo4 {
+  position: relative;
+  display: flex;
+  text-align: right;
+  margin-top: 0.2%;
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.Subtitulo4 {
+  position: relative;
+  text-align: left;
+  margin-top: 45px;
+  margin-left: -35px;
+  font-family: "Inter";
+  font-style: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  width: 15vw;
+}
+.Acessar {
+  margin-top: 39.5px;
+  margin-left: 60px;
+  text-align: center;
+  height: 7vh;
+  width: 7vw;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #ffffff;
+
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.Pesquisa {
+  left: 500px;
+  top: -450px;
+  position: relative;
+}
+
+footer {
+  width: 100vw;
+  position: relative;
+  top: 0px;
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  top: 1260px;
+  max-width: 960px;
+  margin: 0px;
+  text-align: center;
+}
+#logo {
+  position: relative;
+  top: 180px;
+}
+
+#copy {
+  height: 34px;
+  top: 149px;
+  left: -215px;
+  position: relative;
+  color: white;
+  background-color: black;
+  width: 101vw;
+}
+#inicio {
+  position: relative;
+  top: 35px;
+  left: -660px;
+  color: white;
+}
+#inicio1 {
+  position: relative;
+  top: 25px;
+  left: -620px;
+
+  color: white;
+}
+#inicio2 {
+  position: relative;
+  top: 45px;
+  left: -700px;
+
+  color: white;
+}
+#sobre {
+  position: relative;
+  top: -30px;
+  left: -400px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+#sobre1 {
+  position: relative;
+  top: -40px;
+  left: -400px;
+  color: white;
+}
+
+#sobre2 {
+  position: relative;
+  top: -45px;
+  left: -400px;
+  color: white;
+}
+
+#sup {
+  position: relative;
+  top: -120px;
+  left: -250px;
+  color: white;
+}
+#sup1 {
+  position: relative;
+  top: -130px;
+  left: -250px;
+  color: white;
+}
+
+#sup2 {
+  position: relative;
+  top: -129px;
+  left: -250px;
+  color: white;
+}
+#face {
+  width: 50px;
+  height: 50px;
+  left: 490px;
+  top: -220px;
+  position: relative;
+}
+#redes {
+  position: relative;
+  top: -200px;
+  left: 490px;
+}
+#linkedin {
+  width: 40px;
+  height: 40px;
+  left: 470px;
+  top: -228px;
+  position: relative;
+}
+
+#twitter {
+  width: 30px;
+  height: 30px;
+  left: 470px;
+  top: -228px;
+  position: relative;
+}
+#risco {
+  position: relative;
+  top: -48px;
+  left: 1290px;
+  height: 40px;
+}
