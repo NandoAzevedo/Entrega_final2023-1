@@ -73,11 +73,11 @@ Section {
 .Subtitulo {
   position: relative;
   text-align: left;
-  margin-top: 29px;
-  margin-left: -135px;
+  margin-top: 23px;
+  margin-left: -130px;
   font-family: "Inter";
   font-style: none;
-  font-weight: 700;
+  font-weight: 7.5vw;
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
@@ -176,8 +176,8 @@ Section {
   width: 15vw;
 }
 #pesquisar {
-  margin-top: -65px;
-  margin-left: -90px;
+  margin-top: 35px;
+  margin-left: 65px;
   text-align: center;
   height: 7vh;
   width: 7vw;

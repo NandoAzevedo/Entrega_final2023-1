@@ -1,0 +1,152 @@
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+#head {
+  margin: 0px;
+  background-color: black;
+  width: 100vw;
+  height: 6vh;
+}
+#serviço {
+  margin: 0%;
+  display: flex;
+  margin-top: -41px;
+  color: white;
+}
+#historico {
+  color: white;
+  margin-top: -25px;
+  margin-left: 13%;
+  width: auto;
+  height: auto;
+}
+#pagamentos {
+  color: white;
+  margin-top: -35px;
+  margin-left: 30%;
+  width: auto;
+  height: auto;
+}
+#histopagamento {
+  color: white;
+  margin-top: -35px;
+  margin-left: 45%;
+  width: auto;
+  height: auto;
+}
+
+#tela {
+  color: white;
+  margin-top: -35px;
+  margin-left: 65%;
+  width: auto;
+  height: auto;
+}
+#login {
+  color: white;
+  margin-top: -35px;
+  margin-left: 85%;
+  width: auto;
+  height: auto;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  height: 19vh;
+  width: 100vw;
+  margin-top: 70%;
+}
+#inicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -120px;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+#voltarinicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+#sobre {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -85px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#sobrenos {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#suporte {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -80px;
+  margin-left: 35%;
+}
+#suporte1 {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 35%;
+}
+#logo {
+  margin-left: 50%;
+  margin-top: -110px;
+}
+#red {
+  font-size: 25px;
+  margin-top: -90px;
+  margin-left: 80%;
+  color: white;
+}
+
+#faceboock {
+  margin-left: 79%;
+  width: 3vw;
+  height: 3vh;
+}
+#twitter {
+  width: 3vw;
+  height: 3vh;
+}
+#linkedin {
+  width: 3vw;
+  height: 3vh;
+}
+#copy {
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: black;
+  width: 100vw;
+  height: 5vh;
+}
+
+#copytext {
+  margin-top: -40px;
+  color: white;
+  margin-left: 45%;
+  width: auto;
+  height: auto;
+}
