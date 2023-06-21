@@ -1,3 +1,7 @@
+body {
+  margin-left: 0;
+}
+
 Section {
   display: inline-block;
 }
@@ -213,8 +217,8 @@ Section {
 }
 
 .Caixa-branca {
-  margin-top: -534px;
-  margin-left: 620px;
+  margin-top: -40%;
+  margin-left: 44%;
   width: 52vw;
   height: 120vh;
   box-sizing: border-box;
@@ -307,12 +311,12 @@ Section {
 }
 #Avaliações {
   margin-top: -324px;
-  margin-left: 450px;
+  margin-left: 65%;
 }
 .Retangulo_cinza {
   background-color: #d9d9d9;
   width: 25vw;
-  margin-left: 350px;
+  margin-left: 50%;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -348,4 +352,24 @@ Section {
 }
 .Estrelas3 {
   margin-top: 10px;
+}
+.Footer-conteiner {
+  float: left;
+  margin-top: 50px;
+  width: 100vw;
+  height: 20vh;
+  background-color: #3d3d3d;
+}
+.Footer a {
+  font-size: 1.1em;
+  color: white;
+  padding: 3% 4.5%;
+  text-decoration: none;
+}
+
+.Links a {
+  font-size: 1.1em;
+  color: white;
+  padding: 0.5% 1%;
+  text-decoration: none;
 }
