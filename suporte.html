@@ -3,7 +3,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="suporte.css" />
-    <title>Suporte</title>
+    <script src="suporte.js"></script>
+    <title>suporte</title>
   </head>
   <header>
     <div>
@@ -20,11 +21,42 @@
   </header>
 
   <body>
-  
+    <section class="Caixa-cinza">
+        <br />
+        <div class="Bloco">
+          <div class="preencher">
+            <div class="quadrado">
+              <form name="meu_form">
 
+                <h1>Suporte</h1>
+              
+                <input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+                <label for="nome"></label>
+              
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                <label for="fone"></label>
+              
+                <input type="email" id="emailid" placeholder="email" name="email" />
+                <label for="email"></label>
+              
+                <textarea placeholder="Digite aqui seu problema"></textarea>
+              
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </div>
 
-  
-</body>
+             <div id="discord-container"> 
+              <h1 id="discord">Discord</h1>
+              <p id="textdis">   Entre e aguarde um Ajudante</p>
+             <a href="https://discord.com/">  <img src="Img/discord.jpeg" id="disimg"> </a> 
+             <p id="ajuda">Ou Procure ajuda em nossas redes sociais</p>
+             <img src="Img/faceboock.jpeg" id="face">
+            
+            </div>
+         
+        </div>
+        </div>
+      </section>
+   
 
     <footer>
       <p id="footer"></p>
@@ -68,5 +100,6 @@
       <p id="copy"></p>
       <p id="copytext">© 2023 copyright. all rights reserved</p>
     </footer>
+
   </body>
 </html>

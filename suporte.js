@@ -1,4 +1,9 @@
+function Enviar() {
 
-function openPopup() {
-  window.open("redefinir.html", "MeuPopUp", "left=500,width=600,height=400");
+  var nome = document.getElementById("nomeid");
+
+  if (nome.value != "") {
+      alert('  Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+  }
+
 }

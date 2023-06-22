@@ -150,3 +150,117 @@ body {
   width: auto;
   height: auto;
 }
+
+.Caixa-cinza {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 42vw;
+  height: 75vh;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+form {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #66ffff;
+  text-shadow: 5px 5px 5px black;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #ffff00;
+  background-color: #66ffff;
+  color: black;
+  font-weight: bold;
+}
+
+.enviar {
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  margin-left: 80px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+  color: white;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 80px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#discord-container{
+margin-top: -390px;
+margin-left: 110%;
+color: black;
+background-color: grey;
+height: 55vh;
+width: 20vw;
+align-items: center;
+border-radius: 10px;
+}
+#discord{
+  color: black;
+  margin-left: 80px;
+  width: auto;
+  height: auto;
+}
+
+#textdis{
+  margin-left: 40px;
+  width: auto;
+  height: auto;
+
+}
+#disimg{
+  width: 15vw;
+  height: 35vh;
+  margin-left: 35px;
+
+}
+
+#ajuda{
+  width: 12vw;
+  height: auto;
+  margin-top: -280px;
+  margin-left: 300px;
+}
+
+
+#face{
+  height: 30vh;
+  width: 15vw;
+  margin-left: 300px;
+}
