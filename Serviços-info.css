@@ -5,6 +5,57 @@ body {
 Section {
   display: inline-block;
 }
+.header {
+  margin-top: -0.5rem;
+}
+#head {
+  margin: 0px;
+  background-color: black;
+  width: 98.7vw;
+  height: 6vh;
+}
+#serviço {
+  margin: 0%;
+  display: flex;
+  margin-top: -41px;
+  color: white;
+}
+#historico {
+  color: white;
+  margin-top: -25px;
+  margin-left: 13%;
+  width: auto;
+  height: auto;
+}
+#pagamentos {
+  color: white;
+  margin-top: -35px;
+  margin-left: 30%;
+  width: auto;
+  height: auto;
+}
+#histopagamento {
+  color: white;
+  margin-top: -35px;
+  margin-left: 45%;
+  width: auto;
+  height: auto;
+}
+
+#suporte {
+  color: white;
+  margin-top: -35px;
+  margin-left: 65%;
+  width: auto;
+  height: auto;
+}
+#login {
+  color: white;
+  margin-top: -35px;
+  margin-left: 85%;
+  width: auto;
+  height: auto;
+}
 
 .Caixa-cinza {
   width: 40vw;
