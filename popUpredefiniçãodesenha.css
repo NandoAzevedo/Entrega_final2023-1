@@ -1,15 +1,13 @@
-p{
+p {
   color: black;
 }
 
-
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 body {
   margin: 0px;
-
 }
 
 #main-login {
@@ -17,7 +15,7 @@ body {
 }
 
 #title-login {
-    display: flex;
+  display: flex;
   margin-top: 0px;
   color: rgb(255, 255, 255);
 }
@@ -82,4 +80,17 @@ body {
   margin-left: 80px;
   margin-top: 157px;
   position: absolute;
+}
+
+.enviar {
+  background-color: rgb(62, 185, 202);
+  height: 40px;
+  width: 100px;
+  margin-left: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+  color: white;
 }
