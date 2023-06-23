@@ -13,7 +13,7 @@
  
  }
 
- .registrar{
+ .registar{
     margin: 20px;
     margin-left: 7vh;
     width: 264.63px;
@@ -43,3 +43,10 @@ color:rgb(82, 131, 223)
         margin:0% ;
         background-repeat: no-repeat;
     }
+button{
+    width: 10vw;
+    height: 6vh;
+    margin-left: 110px;
+    border-radius: 15px;
+    background-color: rgb(120, 212, 218);
+}

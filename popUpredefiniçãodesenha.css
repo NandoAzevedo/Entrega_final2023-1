@@ -1,5 +1,15 @@
+p{
+  color: black;
+}
+
+
+a{
+text-decoration: none;
+}
+
 body {
   margin: 0px;
+
 }
 
 #main-login {
@@ -7,9 +17,9 @@ body {
 }
 
 #title-login {
+    display: flex;
   margin-top: 0px;
-  margin-left: -150px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #main-login {

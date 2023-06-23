@@ -7,7 +7,6 @@
     <title>redefinir</title>
   </head>
   <body>
-    
     <h1 class="titulo">REDEFINIR A SENHA</h1>
     <div class="preencher">
       <div class="quadrado">
@@ -35,7 +34,16 @@
         />
       </div>
       <div class="quadradot">
-        <button class="registrar">redefinir Senha</button>
+        <button id="registar" onclick="openPopup()">Redefinir Senha</button>
+        <script>
+          function openPopup() {
+            window.open(
+              "popUpredefiniçãodesenha.html",
+              "MeuPopUp",
+              "top=150,left=800,width=400,height=450"
+            );
+          }
+        </script>
       </div>
       <a id="voltar" href="login.html"> Voltar ao login</a>
     </div>

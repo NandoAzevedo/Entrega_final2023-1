@@ -221,46 +221,46 @@ form label {
   font-weight: bold;
 }
 
-#discord-container{
-margin-top: -390px;
-margin-left: 110%;
-color: black;
-background-color: grey;
-height: 55vh;
-width: 20vw;
-align-items: center;
-border-radius: 10px;
+#discord-container {
+  margin-top: -390px;
+  margin-left: 110%;
+  color: black;
+  background-color: grey;
+  height: 55vh;
+  width: 20vw;
+  align-items: center;
+  border-radius: 10px;
 }
-#discord{
+#discord {
   color: black;
   margin-left: 80px;
   width: auto;
   height: auto;
 }
 
-#textdis{
+#textdis {
   margin-left: 40px;
   width: auto;
   height: auto;
-
 }
-#disimg{
+#disimg {
   width: 15vw;
   height: 35vh;
   margin-left: 35px;
-
 }
 
-#ajuda{
+#ajuda {
   width: 12vw;
   height: auto;
   margin-top: -280px;
   margin-left: 300px;
 }
 
+#face {
+  
 
-#face{
-  height: 30vh;
-  width: 15vw;
+  
   margin-left: 300px;
+  background-size: cover;
+  background-position: center;
 }
