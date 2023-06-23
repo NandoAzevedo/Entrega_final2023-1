@@ -257,9 +257,8 @@ form label {
 }
 
 #face {
-  
-
-  
+  height: 30vh;
+  width: 20vw;
   margin-left: 300px;
   background-size: cover;
   background-position: center;
