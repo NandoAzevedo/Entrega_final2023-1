@@ -1,0 +1,332 @@
+body {
+  margin-left: 0;
+}
+
+Section {
+  display: inline-block;
+}
+.header {
+  margin-top: -0.5rem;
+}
+#head {
+  margin: 0px;
+  background-color: black;
+  width: 98.7vw;
+  height: 6vh;
+}
+#serviço {
+  margin: 0%;
+  display: flex;
+  margin-top: -41px;
+  color: white;
+}
+#historico {
+  color: white;
+  margin-top: -25px;
+  margin-left: 13%;
+  width: auto;
+  height: auto;
+}
+#pagamentos {
+  color: white;
+  margin-top: -35px;
+  margin-left: 30%;
+  width: auto;
+  height: auto;
+}
+#histopagamento {
+  color: white;
+  margin-top: -35px;
+  margin-left: 45%;
+  width: auto;
+  height: auto;
+}
+
+#suporte {
+  color: white;
+  margin-top: -35px;
+  margin-left: 65%;
+  width: auto;
+  height: auto;
+}
+#login {
+  color: white;
+  margin-top: -35px;
+  margin-left: 85%;
+  width: auto;
+  height: auto;
+}
+.Container-cinza {
+  color: white;
+  margin-top: 2%;
+  margin-left: 1%;
+  background: #464646;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 75vh;
+  width: 33vw;
+}
+.Titulo {
+  text-align: center;
+}
+.scrollable-content {
+  overflow: auto;
+  max-height: 65vh;
+}
+.Bloco-trabalho {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Bloco-trabalho2 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho2 {
+  text-decoration: none;
+  color: #000000;
+}
+.Bloco-trabalho3 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho3 {
+  text-decoration: none;
+  color: #000000;
+}
+.Bloco-trabalho4 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho4 {
+  text-decoration: none;
+  color: #000000;
+}
+.Bloco-trabalho5 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho5 {
+  text-decoration: none;
+  color: #000000;
+}
+.Bloco-trabalho6 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: left;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalho6 {
+  text-decoration: none;
+  color: #000000;
+}
+.Container-cinza2 {
+  color: white;
+  margin-top: -109%;
+  margin-left: 120%;
+  background: #464646;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 75vh;
+  width: 33vw;
+}
+.Titul0 {
+  text-align: center;
+}
+.scrollable-content2 {
+  overflow: auto;
+  max-height: 65vh;
+}
+.Bloco-trabalh0 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: center;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalh0 {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Bloco-trabalh02 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: center;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalh02 {
+  text-decoration: none;
+  color: #000000;
+}
+.Bloco-trabalh03 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  text-align: center;
+  width: 27vw;
+  height: 4vh;
+  font-size: 1rem;
+}
+.Trabalh03 {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Footer-conteiner {
+  float: left;
+
+  width: 98.7vw;
+  height: 18vh;
+  background-color: #3d3d3d;
+}
+
+.Footer {
+  margin: 0;
+  padding-top: 1%;
+  width: 40vw;
+}
+
+.Inicio {
+  white-space: nowrap;
+  width: 10%;
+  overflow: hidden;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.Sobre {
+  white-space: nowrap;
+  width: 10%;
+  overflow: hidden;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.Suporte {
+  white-space: nowrap;
+  width: 10%;
+  overflow: hidden;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.Links {
+  margin: 0;
+  padding-top: 1rem;
+  width: 40vw;
+}
+
+.Voltar {
+  white-space: nowrap;
+  width: 4%;
+  overflow: hidden;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.Info {
+  white-space: nowrap;
+  width: 3%;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.FAQ {
+  white-space: nowrap;
+  width: 3%;
+  overflow: hidden;
+  padding-left: 0.2rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.Logo {
+  margin-left: 50%;
+  margin-right: 20%;
+  margin-top: -5.5rem;
+}
+.Sociabilidade {
+  padding-left: 90%;
+  margin-top: -5.1rem;
+}
+
+.Social {
+  width: 100%;
+  margin-right: 10%;
+  margin-top: -6.7%;
+  color: white;
+}
+.Imagem-social {
+  margin: 0;
+}
+
+.Copy {
+  background-color: black;
+  height: 30%;
+}
+
+.Copyright {
+  margin: 0;
+  padding-left: 47%;
+  color: white;
+  width: 52.4vw;
+  height: 10%;
+}
