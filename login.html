@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
     <title>Login</title>
   </head>
   <body>
     <main id="main-login">
       <section id="section-login">
         <div class="cta">
-          <h2 id="title-login">Login</h2>
+          <h2 id="title-login">Login
+          </h2>
         </div>
         <form class="cta" id="login-form">
           <label for="username" class="label-input">Username</label>
@@ -28,8 +30,9 @@
             id="password"
             class="input-form"
           />
-          <a href="tela.html" id="aa"> aaaaa</a>
-          <button id="button-sign-in">Entrar</button>
+          <input id="button-sign-in" type="submit" onclick="logar(); return false"
+            ></input
+          >
         </form>
         <div class="cta-container">
           <div class="cta-login-line">
@@ -45,4 +48,7 @@
     </main>
     <script src="./login.js"></script>
   </body>
+
+  
 </html>
+

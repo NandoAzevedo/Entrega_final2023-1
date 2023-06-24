@@ -1,30 +1,51 @@
 body {
   margin: 0px;
+  background-image: url('Img/Group\ 10\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 #main-login {
   height: 100vh;
 }
-
+.alert {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  padding: .75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
 #title-login {
-  margin-top: 0px;
-  margin-left: -150px;
+  margin-top: 12px;
+  margin-left: -140px;
   color: white;
+}
+#ivocorno
+{
+  width: 100vw;
+  height: 100vw;
+  position: relative;
+
 }
 
 #main-login {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: baseline;
 }
 
-#section-login {
+#section-login { 
+  margin: 2%;
+  border-radius: 10px;
+  height: 330px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(59, 59, 59);
-  padding: 60px;
-  border-radius: 10px;
+  background-color:rgb(59, 59, 59);
   box-shadow: 10px 10px 10px grey;
 }
 
@@ -37,11 +58,12 @@ body {
   margin-bottom: 20px;
   border-radius: 10px;
   height: 25px;
+  width: 250px;
 }
 
 #button-sign-in {
   align-self: center;
-  background-color: rgb(62, 185, 202);
+  background-color:rgb(62, 185, 202);
   border: none;
   padding: 8px;
   border-radius: 10px;
@@ -58,8 +80,11 @@ body {
 }
 
 .cta-login-line {
+  margin-left: 80px;
+  justify-content: center;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .link-redirect {
@@ -67,9 +92,3 @@ body {
   text-decoration: none;
 }
 
-#aa {
-  color: rgb(62, 185, 202);
-  margin-left: 80px;
-  margin-top: 157px;
-  position: absolute;
-}
