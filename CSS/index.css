@@ -399,3 +399,57 @@ a {
   left: 1290px;
   height: 40px;
 }
+main{
+  display:flex;
+  flex-direction: row;
+}
+.javascript{
+  width: 45vw;
+  height: 70vh;
+  border-radius: 10px;
+  left: 13vh;
+  top: -30px;
+  position: relative;
+}
+
+/* Estilos para a aba */
+.aba {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.aba h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para os retângulos */
+.aba ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aba li {
+  background-color: #dcdcdc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.aba li:hover {
+  background-color: #bfbfbf;
+}
+
+.aba-titulo {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.aba-titulo h2 {
+  font-size: 24px;
+  margin: 0;
+}
