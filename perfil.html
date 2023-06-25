@@ -6,118 +6,100 @@
     <title>Document</title>
     <link rel="stylesheet" href="perfil.css" />
   </head>
+  <header>
+    <div>
+      <p id="head">a</p>
+      <a href=""></a>
+      <h1 id="serviço">Serviços</h1>
+      <a href=""><p id="historico">Historico de serviço</p></a>
+      <a href=""> <p id="pagamentos">Pagamentos</p></a>
+      <a href=""> <p id="histopagamento">Historico de Pagamentos</p></a>
+      <a href="suporte.html"> <p id="tela">Suporte</p> </a>
+
+      <a href="login.html"> <p id="login">Login</p> </a>
+    </div>
+  </header>
 
   <body>
-    <header>
-      <div>
-        <p id="head">a</p>
-        <a href=""></a>
-        <h1 id="serviço">Serviços</h1>
-        <a href=""><p id="historico">Historico de serviço</p></a>
-        <a href=""> <p id="pagamentos">Pagamentos</p></a>
-        <a href=""> <p id="histopagamento">Historico de Pagamentos</p></a>
-        <a href="suporte.html"> <p id="tela">Suporte</p> </a>
-
-        <a href="login.html"> <p id="login">Login</p> </a>
-      </div>
-    </header>
-    <section class="fundo1">
-      <div id=" perfil1">
-        <img src="Img/fotoperfil.jpg" id="fotoperfil" />
-        <p id="usuario">
-          Nome do usuario: <br />
-          Idade: <br />
+    <section>
+      <div class="Perfil">
+        <img src="Img/fotoperfil.jpg" alt=" foto" id="Foto" />
+        <p id="Infor">
+          Nome do usuario <br />
+          Idade: XX <br />
           Nacionalidade: Brasileiro
         </p>
+        <br />
       </div>
-    </section>
-    <section class="fundo2">
-      <div id="perfil2">
-        <p id="text1">
-          <br />
-          Clique aqui para <br />
-          alterar sua foto de <br />
-          perfil
-        </p>
-        <img src="Img/566937-icone-de-pessoa-gratis-vetor 1.png" id="pessoa" />
-      </div>
-    </section>
-
-    <section class="fundo3">
-      <label for="inputExemplo" id=""></label>
-
-      <input
-        type="text"
-        id="inputExemplo"
-        name="inputExemplo"
-        placeholder="Nome da Rua"
-      />
-      <label for="label2" id="label2"></label>
-
-      <input
-        type="text"
-        id="inputExemplo"
-        name="inputExemplo"
-        placeholder="Bairro"
-      />
-
-      <label for="label2" id="label2"></label>
-
-      <input
-        type="text"
-        id="inputExemplo"
-        name="inputExemplo"
-        placeholder="Cidade"
-      />
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input placeholder="Nº da casa" class="retangulo_escrita" type="text" />
-      </div>
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input placeholder="Cep" class="retangulo_escrita1" type="text" />
-      </div>
-      <button id="botao">Salvar Dados</button>
-    </section>
-    <section id="fundo4">
-      <p id="texto4">
-        Para completar seu cadastro, anexe a foto do seu <br />Documento/RG
-        frente e verso aqui a baixo
-      </p>
-      <img src="Img/troca_de_foto-removebg-preview.png" id="troca" />
-    </section>
-
-    <div id="fundo5">
-      <label for="inputExemplo" id=""></label>
-
-      <input
-        type="text"
-        id="inputExemplo"
-        name="inputExemplo"
-        placeholder="Emaildeexemplo@tamojunto.com"
-      />
-
-      <input
-        type="senha"
-        id="inputExemplo"
-        name="inputExemplo"
-        placeholder="*******************"
-      />
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input
-          placeholder="(55) 045 9956-4367"
-          class="retangulo_escrita"
-          type="text"
+      <div class="Alter">
+        <p id="Alterar">Clique aqui para alterar sua foto de perfil</p>
+        <img
+          src="Img/566937-icone-de-pessoa-gratis-vetor 1.png"
+          alt=" foto"
+          id="Foto-2"
         />
+        <br />
       </div>
+      <h2 id="Ende">Endereço</h2>
+      <div class="Dados">
+        <div class="label-float">
+          <input type="text" id="Rua" placeholder="Nome da rua" />
+        </div>
+        <div class="label-float">
+          <input type="text" id="Bairo" placeholder="Bairo" />
+        </div>
+        <div class="label-float">
+          <input type="text" id="Cidade" placeholder="Cidade" />
+        </div>
+        <div class="label">
+          <input type="text" id="Casa" placeholder="Nº da casa" />
 
-      <button id="botao1">Alterar senhas</button>
+          <input type="text" id="CEP" placeholder="CEP" />
+        </div>
+        <button class="Salvar">Salvar Dados</button>
+        <br />
+      </div>
+    </section>
+    <section>
+      <div class="Documento">
+        <p id="Text0">
+          Para completar seu cadastro, anexe a foto do seu Documento/RG frente e
+          verso aqui a baixo
+        </p>
+        <img
+          src="Img/troca_de_foto-removebg-preview.png"
+          alt=" foto"
+          id="Foto-3"
+        />
+        <br />
+      </div>
+      <div class="Senha">
+        <div class="label-float">
+          <input
+            type="text"
+            id="Email"
+            placeholder="Emaildeexemplo@tamojunto.com"
+          />
+        </div>
+        <div class="label-float">
+          <input type="text" id="Sehna-tro" placeholder="*******************" />
+          <button id="Alterar-senha">Alterar senha</button>
+        </div>
+        <div class="label-float">
+          <input type="text" id="Telefone" placeholder="(55) 045 9956-4367" />
+        </div>
+      </div>
+    </section>
+    <br />
+    <div>
+      <button id="Volta">Voltar</button>
+      <br />
     </div>
+    <button id="Sal">Salvar</button>
     <br />
 
     <footer>
-      <div id="footer">
+      <div class="foot">
         <a href="pageinicial.html">
           <p id="Inicio">Inicio</p>
           <p id="voltarinicio">
