@@ -57,6 +57,7 @@ Section {
   height: auto;
 }
 .Container-cinza {
+  
   color: white;
   margin-top: 2%;
   margin-left: 1%;
@@ -159,8 +160,9 @@ Section {
   color: #000000;
 }
 .Container-cinza2 {
+  position: relative;
   color: white;
-  margin-top: -109%;
+  margin-top: -103%;
   margin-left: 120%;
   background: #464646;
   border: 1px solid #000000;
