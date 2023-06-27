@@ -1,80 +1,125 @@
 body {
   font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+  background-image: url(Img/fundo.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
 }
-
+#primeirotexto
+{
+  margin: 25px;
+}
 .container {
   display: flex;
+ 
 }
-.elemento {
-  flex: 1 0 20%; /* ajuste as propriedades flex de acordo com sua necessidade */
+
+#texto
+{
+  text-align: center;
+  color: white;
 }
 .item1 {
   background-color: rgb(114, 236, 170);
   width: 15vw;
   height: 80vh;
   border-radius: 16px;
-  margin-left: 0px;
-  margin-top: -400px;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 #bem-vindo {
+  font-size: larger;
   color: white;
-  margin-top: 50%;
-  margin-left: 20px;
-}
-
-#text1 {
-  margin-top: 100px;
-  color: white;
-  margin-left: 20px;
-}
-#entrar {
-  width: 10vw;
-  height: 6vh;
-  border-radius: 20px;
-  color: white;
-  margin-left: 20px;
-  border: 2px solid white;
-  background-color: transparent;
-  margin-top: 20px;
+  text-align: center;
 }
 
 .item2 {
-  margin-top: 30px;
-  margin-left: 20%;
+  display: flex;
   background-color: rgb(244, 239, 239);
   height: 80vh;
   width: 60vw;
   border-radius: 16px;
 }
-#conta {
-  margin-top: 100px;
-  margin-left: 45%;
-  color: rgb(114, 236, 170);
+#entrar
+{
+  margin-left: 35px;
+  margin-right: 35px;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
 }
-#nome {
-  margin-left: 300px;
-  background-color: rgb(245, 245, 245);
+#criarconta
+{
+  color: #64f0a5;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
-#cpf {
-  margin-left: 100px;
-  background-color: rgb(245, 245, 245);
+#lado-esq
+{
+  display: flex;
+  flex-direction: column;
 }
-#e-mail {
-  margin-top: 30px;
-  margin-left: 300px;
-  background-color: rgb(245, 245, 245);
+#lado-dire
+{
+  display: flex;
+  flex-direction: column;
 }
-#senha {
-  margin-left: 100px;
-  background-color: rgb(245, 245, 245);
+#item3
+{
+  display: flex;
+  justify-content: space-around;
 }
-#nascimento {
-  margin-left: 300px;
-  margin-top: 30px;
-  background-color: rgb(245, 245, 245);
+#inputa
+{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin: 10px;
+  width: 180px;
 }
-#senha2 {
-  margin-left: 100px;
-  background-color: rgb(245, 245, 245);
+#inputa:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+#termos
+{
+  margin-left: 50px;
+  display: flex;
+}
+#texto0
+{
+  text-align: center;
+  color: black;
+}
+#item4
+{
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+#cadastrar
+{
+  margin-right: 150px;
+  margin-left: 150px;
+  width: 10vw;
+  height: 6vh;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: #64f0a5;
 }
