@@ -6,7 +6,7 @@ body {
 }
 #head {
   margin: 0px;
-  background-color: black;
+  background-color: white;
   width: 100vw;
   height: 6vh;
 }
@@ -14,24 +14,24 @@ body {
   margin: 0%;
   display: flex;
   margin-top: -41px;
-  color: white;
+  color: black;
 }
 #historico {
-  color: white;
+  color: black;
   margin-top: -25px;
   margin-left: 13%;
   width: auto;
   height: auto;
 }
 #pagamentos {
-  color: white;
+  color: black;
   margin-top: -35px;
   margin-left: 30%;
   width: auto;
   height: auto;
 }
 #histopagamento {
-  color: white;
+  color: black;
   margin-top: -35px;
   margin-left: 45%;
   width: auto;
@@ -39,14 +39,14 @@ body {
 }
 
 #tela {
-  color: white;
+  color: black;
   margin-top: -35px;
   margin-left: 65%;
   width: auto;
   height: auto;
 }
 #login {
-  color: white;
+  color: black;
   margin-top: -35px;
   margin-left: 85%;
   width: auto;

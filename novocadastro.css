@@ -1,0 +1,80 @@
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+}
+.elemento {
+  flex: 1 0 20%; /* ajuste as propriedades flex de acordo com sua necessidade */
+}
+.item1 {
+  background-color: rgb(114, 236, 170);
+  width: 15vw;
+  height: 80vh;
+  border-radius: 16px;
+  margin-left: 0px;
+  margin-top: -400px;
+  align-content: center;
+}
+#bem-vindo {
+  color: white;
+  margin-top: 50%;
+  margin-left: 20px;
+}
+
+#text1 {
+  margin-top: 100px;
+  color: white;
+  margin-left: 20px;
+}
+#entrar {
+  width: 10vw;
+  height: 6vh;
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.item2 {
+  margin-top: 30px;
+  margin-left: 20%;
+  background-color: rgb(244, 239, 239);
+  height: 80vh;
+  width: 60vw;
+  border-radius: 16px;
+}
+#conta {
+  margin-top: 100px;
+  margin-left: 45%;
+  color: rgb(114, 236, 170);
+}
+#nome {
+  margin-left: 300px;
+  background-color: rgb(245, 245, 245);
+}
+#cpf {
+  margin-left: 100px;
+  background-color: rgb(245, 245, 245);
+}
+#e-mail {
+  margin-top: 30px;
+  margin-left: 300px;
+  background-color: rgb(245, 245, 245);
+}
+#senha {
+  margin-left: 100px;
+  background-color: rgb(245, 245, 245);
+}
+#nascimento {
+  margin-left: 300px;
+  margin-top: 30px;
+  background-color: rgb(245, 245, 245);
+}
+#senha2 {
+  margin-left: 100px;
+  background-color: rgb(245, 245, 245);
+}

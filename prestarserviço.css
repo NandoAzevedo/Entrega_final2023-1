@@ -17,7 +17,7 @@ Section {
 #head {
   margin: 0px;
   background-color: black;
-  width: 98.7vw;
+  width: 100vw;
   height: 6vh;
 }
 #serviço {
@@ -132,7 +132,7 @@ Section {
 .Footer {
   margin: 0;
   padding-top: 1%;
-  width: 55vw;
+  width: 56vw;
 }
 
 .Inicio {
@@ -221,6 +221,7 @@ Section {
 }
 
 .Copy {
+    width: auto;
   background-color: black;
   height: 30%;
 }
@@ -228,14 +229,14 @@ Section {
 .Copyright {
   margin: 0;
   padding-left: 47%;
-  color: white;
+  color:white;
   width: 52.4vw;
-  height: 10%;
+  height: 11%;
 }
 .Footer-conteiner {
   float: left;
 
-  width: 98.9vw;
+  width: 100vw;
   height: 19vh;
   background-color: #3d3d3d;
 }
@@ -420,6 +421,6 @@ Section {
   height: 6vh;
   border-radius: 20px;
 }
-a{
-    color:black;
+a {
+  color: black;
 }
