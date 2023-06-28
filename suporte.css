@@ -8,89 +8,95 @@ body {
   width: 100vw;
   height: 100vh;
 }
+header {
+  margin-top: 1.5rem;
+  justify-content: space-around;
+  display: flex;
+}
+
 #head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: #514869;
   margin: 0px;
-  background-color: #514869;
   width: 100vw;
-  height: 7vh;
+  height: 6vh;
 }
 #serviço {
-  margin: 0%;
-  margin-top: -45px;
-  color: #00ff88;
+  display: flex;
+  color: white;
+  margin-top: 0px;
+}
+#head {
+  margin: 0px;
+  width: 100vw;
+  height: 6vh;
+}
+#serviço {
+  display: flex;
+  color: white;
 }
 #historico {
-  color: #00ff88;
-  margin-top: -35px;
-  margin-left: 13%;
+  margin-top: 15px;
+  color: white;
   width: auto;
   height: auto;
 }
 #pagamentos {
-  color: #00ff88;
-  margin-top: -40px;
-  margin-left: 30%;
+  margin-top: 15px;
+  color: white;
   width: auto;
   height: auto;
 }
 #histopagamento {
-  color: #00ff88;
-  margin-top: -40px;
-  margin-left: 45%;
+  margin-top: 15px;
+  color: white;
   width: auto;
   height: auto;
 }
 
 #tela {
-  color: #00ff88;
-  margin-top: -40px;
-  margin-left: 65%;
+  margin-top: 15px;
+  color: white;
   width: auto;
   height: auto;
 }
 #login {
-  color: #00ff88;
-  margin-top: -40px;
-  margin-left: 85%;
+  font-size: xx-large;
+  color: white;
   width: auto;
   height: auto;
+  margin-top: 0px;
 }
 
-#footer {
-  display: flex;
-  align-self: start;
-  flex-direction: row;
-  background-color: #333;
-  color: white;
-  height: 15vh;
-  width: 100vw;
-  margin-top: 15%;
-}
 #inicio {
   color: white;
   width: auto;
   height: auto;
-  margin: 15px;
+  margin-top: -120px;
+  margin-left: 2%;
+  text-decoration: none;
 }
 
+#voltarinicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 2%;
+  text-decoration: none;
+}
 
 #sobre {
   color: white;
   width: auto;
   height: auto;
-  margin-left: 70px;
+  margin-top: -85px;
+  margin-left: 20%;
   text-decoration: none;
 }
 #sobrenos {
   color: white;
   width: auto;
   height: auto;
-  margin-top: -15px;
+  margin-top: -5px;
   margin-left: 20%;
   text-decoration: none;
 }
@@ -99,7 +105,7 @@ body {
   width: auto;
   height: auto;
   margin-top: -80px;
-  margin-left: 475px;
+  margin-left: 35%;
 }
 #suporte1 {
   color: white;
@@ -108,45 +114,89 @@ body {
   margin-top: -5px;
   margin-left: 35%;
 }
-#logo {
-  margin-left: 50%;
-  margin-top: -170px;
-}
-#red {
-  font-size: 25px;
-  margin-top: -90px;
-  margin-left: 80%;
-  color: white;
-}
 
-#faceboock {
-  margin-left: 79%;
-  width: 3vw;
-  height: 3vh;
-}
-#twitter {
-  width: 3vw;
-  height: 3vh;
-}
-#linkedin {
-  width: 3vw;
-  height: 3vh;
-}
-#copy {
-  margin-top: -50px;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  width: 100vw;
-  height: 5vh;
-}
-
-#copytext {
-  margin-top: -40px;
+#sobre {
   color: white;
-  margin-left: 45%;
   width: auto;
   height: auto;
+  margin-top: -85px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#sobrenos {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#suporte {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -80px;
+  margin-left: 35%;
+}
+#suporte1 {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 35%;
+}
+#disimg {
+  display: flex;
+}
+#discord-container {
+  margin-top: -250px;
+  justify-content: center;
+  margin-left: 600px;
+  width: 80vh;
+}
+#footer {
+  display: flex;
+  align-self: start;
+  flex-direction: row;
+  background-color: #333;
+  color: white;
+  height: 16vh;
+  width: 100vw;
+  margin-top: 15%;
+}
+#inicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: auto;
+}
+
+#sobre {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-left: 70px;
+  text-decoration: none;
+  padding: auto;
+}
+#suporte {
+  color: white;
+  margin-left: 70px;
+}
+#logo {
+  margin-left: 25%;
+}
+#Imagem-social {
+  margin-top: 50px;
+  width: 5vw;
+  height: 5vh;
+  margin-left: -200px;
+}
+#rede {
+  width: 15vw;
+  display: flex;
+  margin-left: 250px;
 }
 
 .Caixa-cinza {
@@ -173,76 +223,130 @@ h1 {
 
 input,
 textarea {
-  width: 200px;
+
+  width: 20vw;
   padding: 10px;
   outline: none;
   transition: border-color 0.3s ease;
   background: #514869;
   box-shadow: 0px 10px 40px #00000056;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 10px;
   border-radius: 10px;
   border: 1px solid;
 }
 
 .enviar {
+
   background-color: #64f0a5;
   height: 40px;
   width: 100px;
-  margin-left: 80px;
+  margin-left: 160px;
   font-weight: bold;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  top: 150px;
+  display: flex;
 
   color: white;
 }
 
-textarea {
-  width: 400px;
-  height: 120px;
-  line-height: 20px;
-  max-width: 400px;
+#footer_content {
+  font-size: 13px;
+  background-color: #39334b;
+  justify-content: space-between;
+  display: flex;
+  padding: 3rem 3.5rem;
+  flex: 1;
+  padding: 10px;
+}
+.footer-list {
+  padding: 10px;
+}
+#footer_contacts {
+  margin-bottom: 0.75rem;
+}
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.footer-list {
+  list-style: none;
 }
 
-form label {
-  margin-left: 80px;
-  color: #ffffff;
-  font-weight: bold;
+.footer-list .footer-link {
+  color: rgba(240, 248, 255, 0.568);
 }
-
-#discord-container {
-  margin-top: -390px;
-  margin-left: 110%;
-  color: black;
-  background-color: grey;
+#footer_copy {
+  background-color: #201b2c;
+  display: flex;
+  justify-content: center;
+  color:white ;
+}
+#botao2 {
+  justify-content: center;
   align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #00ff88;
+}
+
+#footer_social_media .footer-link {
+  text-decoration: none;
+}
+.main-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #201b2c;
+  display: flex;
+ 
+}
+.left-login {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  width: 50vw;
+  height: 80vh;
+  border-radius: 16px;
+  background-color: #2f2841;
   border-radius: 10px;
+  box-shadow: 5px 10px 40px #2c243d;
+}
+#nomeid{
+  justify-content: center;
+  align-items:center;
+
 }
 
-#textdis {
-  color: #00ff88;
-  margin-left: 0px;
-  width: 45vw;
+#texto-maior{
+  width: 80%;
+  height: 20vh;
 }
-#disimg {
-  margin-left: -50px;
-  margin-top: 20px;
-  width: 40vw;
-  height: 40vh;
+#foto{
+  margin-left: 60px;
+  width: 80%;
+  height: 60%;
 }
-
-#ajuda {
-  width: 12vw;
-  height: auto;
-  margin-top: -280px;
-  margin-left: 300px;
+a{
+  color: white ;
 }
-
-#face {
-  height: 30vh;
-  width: 20vw;
-  margin-left: 300px;
-  background-size: cover;
-  background-position: center;
+p{
+  color: white;
+}
+h3{
+  color: white;
+}
+#cor{
+  color: white;
+}
+#texto3{
+  margin-left: 50px;
+}
+#email{
+  margin-left: -8%;
 }

@@ -1,17 +1,23 @@
-*{
+* {
   font-family: "Poppins";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 1px;
 }
-footer{
+footer {
   width: 100%;
   color: aliceblue;
-
 }
-#footer_content
-{
+body {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}
+
+#footer_content {
   font-size: 13px;
   background-color: #39334b;
   justify-content: space-between;
@@ -20,39 +26,30 @@ footer{
   flex: 1;
   padding: 10px;
 }
-.footer-list
-{
+.footer-list {
   padding: 10px;
 }
-#footer_contacts
-{
+#footer_contacts {
   margin-bottom: 0.75rem;
 }
-#footer_social_media
-{
-  display: flex;  
-  gap:2rem;
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
   margin-top: 1.5rem;
 }
-.footer-list
-{
-  list-style:none;
+.footer-list {
+  list-style: none;
 }
 
-.footer-list .footer-link
-{
+.footer-list .footer-link {
   color: rgba(240, 248, 255, 0.568);
 }
-#footer_copy
-{
+#footer_copy {
   background-color: #201b2c;
   display: flex;
   justify-content: center;
-
 }
-#botao2
-{
-  
+#botao2 {
   justify-content: center;
   align-items: center;
   height: 30px;
@@ -61,22 +58,20 @@ footer{
   background-color: #00ff88;
 }
 
-#footer_social_media .footer-link
-{
-text-decoration: none;
+#footer_social_media .footer-link {
+  text-decoration: none;
 }
 
 a {
   text-decoration: none;
 }
 body {
-  background-color:#201b2c; ;
+  background-color: #201b2c;
   margin: 0px;
   width: 100%;
   height: 100vh;
 }
-header
-{
+header {
   margin-top: 1.5rem;
   justify-content: space-around;
   display: flex;
@@ -170,50 +165,17 @@ header
   margin-top: -5px;
   margin-left: 35%;
 }
-#logo {
-  margin-left: 50%;
-  margin-top: -110px;
-}
-#red {
-  font-size: 25px;
-  margin-top: -90px;
-  margin-left: 80%;
-  color: white;
-}
 
-#faceboock {
-  margin-left: 81%;
-  width: 1vw;
-  height: 3vh;
-}
-#twitter {
-  padding-left: 1%;
-  padding-right: 1%;
-  width: 1.5vw;
-  height: 3vh;
-}
-#linkedin {
-  width: 1.4vw;
-  height: 3vh;
-}
-#copy {
-  align-items: center;
-  justify-content: center;
-  margin-top: 23px;
-  background-color: black;
-  width: 100vw;
-  height: 5vh;
-}
 
-#copytext {
-  margin-top: -40px;
-  color: white;
-  margin-left: 45%;
-  width: auto;
-  height: auto;
-}
+
 
 .Caixa-cinza {
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
   margin-bottom: 40px;
   margin-top: 80px;
   width: 43vw;
@@ -222,6 +184,23 @@ header
   border-radius: 10px;
   box-shadow: 5px 10px 40px #2c243d;
 }
+.bloco-cinza {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#imglateral {
+  display: flex;
+  margin: 4%;
+  width: 60vw;
+  height: 80vh;
+}
+#imglateral{
+  margin-top: 0px;
+  display: flex;
+  margin-left: 1260px;
+  justify-content: space-around;
+}
 .Bloco {
   justify-content: space-around;
   display: flex;
@@ -229,10 +208,9 @@ header
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color:#201b2c; 
+  background-color: #201b2c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  
 }
 .pesquisar {
   margin-top: 39.5px;
@@ -260,11 +238,10 @@ header
   font-weight: 800;
   font-size: 20px;
   line-height: 21px;
-  color:  white;
+  color: white;
   margin-bottom: 15px;
 }
-#conteudo
-{
+#conteudo {
   margin: 4%;
 }
 .Subtitulo {
@@ -278,7 +255,7 @@ header
   line-height: 13px;
   width: 19vw;
   height: 5vh;
-  color:  white;
+  color: white;
 }
 .Bloco2 {
   justify-content: space-around;
@@ -287,7 +264,7 @@ header
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color:#201b2c; 
+  background-color: #201b2c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -300,12 +277,11 @@ header
   font-weight: 800;
   font-size: 20px;
   line-height: 21px;
-  color:  white;
+  color: white;
   margin-bottom: 15px;
 }
 
-#conteudo2
-{
+#conteudo2 {
   margin-left: 20px;
   margin: 4%;
 }
@@ -318,11 +294,11 @@ header
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
-  color:  white;
+  color: white;
 }
 .Cadastro {
   margin-top: 39.5px;
-  margin-left:115px;
+  margin-left: 115px;
   text-align: center;
   height: 7vh;
   width: 7vw;
@@ -331,7 +307,7 @@ header
   font-size: 12px;
   line-height: 15px;
 
-  color:  black;
+  color: black;
 
   background: #00ff88;
   box-shadow: 0px 10px 40px -12px #00ff8052;
@@ -344,7 +320,7 @@ header
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color:#201b2c; 
+  background-color: #201b2c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -357,11 +333,10 @@ header
   font-weight: 800;
   font-size: 20px;
   line-height: 21px;
-  color:  white;
+  color: white;
   margin-bottom: 15px;
 }
-#conteudo3
-{
+#conteudo3 {
   margin: 4%;
 }
 .Subtitulo3 {
@@ -373,11 +348,11 @@ header
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
-  color:  white;
+  color: white;
 }
 .Enviar {
   margin-top: 39.5px;
-  margin-left:115px;
+  margin-left: 115px;
   text-align: center;
   height: 7vh;
   width: 7vw;
@@ -386,7 +361,7 @@ header
   font-size: 12px;
   line-height: 15px;
 
-  color:  black;
+  color: black;
 
   background: #00ff88;
   box-shadow: 0px 10px 40px -12px #00ff8052;
@@ -399,7 +374,7 @@ header
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color:#201b2c; 
+  background-color: #201b2c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -412,7 +387,7 @@ header
   font-weight: 800;
   font-size: 20px;
   line-height: 21px;
-  color:  white;
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -425,11 +400,11 @@ header
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
-  color:  white;
+  color: white;
 }
 .Acessar {
   margin-top: 39.5px;
-  margin-left:115px;
+  margin-left: 115px;
   text-align: center;
   height: 7vh;
   width: 7vw;
@@ -438,13 +413,12 @@ header
   font-size: 12px;
   line-height: 15px;
 
-  color:  black;
+  color: black;
 
   background: #00ff88;
   box-shadow: 0px 10px 40px -12px #00ff8052;
   border-radius: 10px;
 }
-#conteudo4
-{
-  margin:4%;
+#conteudo4 {
+  margin: 4%;
 }

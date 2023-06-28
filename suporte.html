@@ -11,26 +11,31 @@
     <title>suporte</title>
   </head>
   <header>
-    <div>
-      <p id="head">a</p>
-      <a href=""></a>
+    <div id="Serviços">
       <h1 id="serviço">Serviços</h1>
-      <a href=""><p id="historico">Historico de serviço</p></a>
-      <a href=""> <p id="pagamentos">Pagamentos</p></a>
-      <a href=""> <p id="histopagamento">Historico de Pagamentos</p></a>
-      <a href=""> <p id="tela">Suporte</p> </a>
-      <a href=""> <p id="login">Login</p></a>
-    
     </div>
+    <div id="historico-head">
+      <a href=""><p id="historico">Historico de serviço</p></a>
+    </div>
+    <div id="pagamentos-head">
+      <a href=""> <p id="pagamentos">Pagamentos</p></a>
+    </div>
+    <div id="histopagamento-head">
+      <a href=""> <p id="histopagamento">Historico de Pagamentos</p></a>
+    </div>
+    <div id="tela-head">
+      <a href=""> <p id="tela">Suporte</p> </a>
+    </div>
+    <div id="login-head">
+      <a href="novologin.html"> <p id="login">Login</p></a>
+    </div>
+
   </header>
 
-  <body>
-    <section class="Caixa-cinza">
-        <br />
-        <div class="Bloco">
-          <div class="preencher">
-            <div class="quadrado">
-              <form name="meu_form">
+    <body>
+        <div class="main-login">
+          <div class="left-login">
+                <form name="meu_form">
 
                 <h1>Suporte</h1>
               
@@ -43,30 +48,88 @@
                 <input type="email" id="emailid" placeholder="email" name="email" />
                 <label for="email"></label>
               
-                <textarea placeholder="Digite aqui seu problema"></textarea>
+                <textarea id="texto-maior"placeholder="Digite aqui seu problema"></textarea>
               
                 <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-            </div>
-             <div id="discord-container"> 
-              <h1 id="textdis">Entre em contato conosco <br> nas nossas redes</h1>
-              <a href="https://discord.com/">  <img src="Img/business-support-animate.svg" id="disimg"> </a> 
-            
-            </div>
-         
+          </div>
+
+
+          <div class="right-login"> 
+              <h1>entre  contato conosco <br> em nossas redes</h1>
+            <img src="Img/business-support-animate.svg" id="foto">
+          </div>
+          
         </div>
-        </div>
-      </section>
+      
+    </body>
+
+  
+
+
+      
    
 
-    <footer id="footer">
-      <p id="inicio">  inicio <br> voltar a tela <br> inicial</p>
-      <p id="sobre">Sobre nos</p>
-    
-
-
-
-
-    </footer>
+      <footer>
+        <div id="footer_content">
+          <div class="footer-list" id="footer_contacts">
+            <h1 id="cor">Prestagem  Service</h1>
+            <p id="texto3">Site de contrato de serviços e <br/> prestagem dos mesmos</p>
+  
+            <div id="footer_social_media">
+              <a href="#" class="footer_link" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+  
+              <a href="#" class="footer_link" id="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <h3>Inicio</h3>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Voltar a Tela Inicial</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Prestar Serviço</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contratar Serviço</a>
+            </li>
+          </ul>
+          <ul class="footer-list">
+            <li>
+              <h3>Sobre Nós</h3>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Informações</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contato</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+          </ul>
+          <div class="footer-list" id="footer_subscribe">
+            <h3>Nos Envie um E-mail Rapido</h3>
+            <p>Digite sua mensagem e aguarde <br/>o contato no seu email</p>
+            <div id="imput_group">
+              <input type="email" id="email">
+              <button id="botao2">
+                <i class="fa-regular fa-envelope"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="footer_copy">
+          &#169
+          2023 all rights reserved
+        </div>
+      </footer>
+  
 
   </body>
 </html>
