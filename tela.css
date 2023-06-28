@@ -2,13 +2,13 @@ a {
   text-decoration: none;
 }
 body {
+  background-color:#201b2c; ;
   margin: 0px;
   width: 100vw;
   height: 100vh;
 }
 #head {
   margin: 0px;
-  background-color: black;
   width: 100vw;
   height: 6vh;
 }
@@ -158,8 +158,9 @@ body {
   margin-left: 20px;
   width: 45vw;
   height: 89vh;
-  background-color: grey;
+  background-color: #2f2841;
   border-radius: 10px;
+  box-shadow: 5px 10px 40px #2c243d;
 }
 .Bloco {
   position: relative;
@@ -168,9 +169,10 @@ body {
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color: white;
+  background-color:#201b2c; 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  
 }
 .pesquisar {
   margin-top: 39.5px;
@@ -183,10 +185,10 @@ body {
   font-size: 12px;
   line-height: 15px;
 
-  color: #ffffff;
+  color: black;
 
-  background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
   border-radius: 10px;
 }
 #Titulo {
@@ -195,13 +197,13 @@ body {
   text-align: right;
   margin-top: 0.2%;
   margin-left: 10px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 800;
+  font-size: 20px;
   line-height: 21px;
 
-  color: #000000;
+  color:  white;
 }
 
 .Subtitulo {
@@ -209,13 +211,14 @@ body {
   text-align: left;
   margin-top: 29px;
   margin-left: -120px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: none;
   font-weight: 700;
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
   height: 5vh;
+  color:  white;
 }
 .Bloco2 {
   position: relative;
@@ -224,7 +227,7 @@ body {
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color: #dfdfdf;
+  background-color:#201b2c; 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -234,12 +237,12 @@ body {
   text-align: right;
   margin-top: 5px;
   margin-left: 15px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 70;
   font-size: 17px;
 
-  color: #000000;
+  color:  white;
 }
 
 .Subtitulo2 {
@@ -247,12 +250,13 @@ body {
   text-align: left;
   margin-top: 45px;
   margin-left: -100px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: none;
   font-weight: 700;
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
+  color:  white;
 }
 .Cadastro {
   margin-top: 39.5px;
@@ -265,10 +269,10 @@ body {
   font-size: 12px;
   line-height: 15px;
 
-  color: #ffffff;
+  color:  black;
 
-  background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
   border-radius: 10px;
 }
 .Bloco3 {
@@ -278,7 +282,7 @@ body {
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color: #a8a8a8;
+  background-color:#201b2c; 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -288,13 +292,13 @@ body {
   text-align: right;
   margin-top: 0.2%;
   margin-left: 10px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 21px;
 
-  color: #000000;
+  color:  white;
 }
 
 .Subtitulo3 {
@@ -302,12 +306,13 @@ body {
   text-align: left;
   margin-top: 45px;
   margin-left: -70px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: none;
   font-weight: 700;
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
+  color:  white;
 }
 .Enviar {
   margin-top: 39.5px;
@@ -320,10 +325,10 @@ body {
   font-size: 12px;
   line-height: 15px;
 
-  color: #ffffff;
+  color:  black;
 
-  background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
   border-radius: 10px;
 }
 .Bloco4 {
@@ -333,7 +338,7 @@ body {
   margin-left: 15px;
   width: 38vw;
   height: 18.5vh;
-  background-color: #757575;
+  background-color:#201b2c; ;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -343,13 +348,13 @@ body {
   text-align: right;
   margin-top: 0.2%;
   margin-left: 10px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 21px;
 
-  color: #000000;
+  color:  white;
 }
 
 .Subtitulo4 {
@@ -357,12 +362,13 @@ body {
   text-align: left;
   margin-top: 45px;
   margin-left: -35px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-style: none;
   font-weight: 700;
   font-size: 11px;
   line-height: 13px;
   width: 15vw;
+  color:  white;
 }
 .Acessar {
   margin-top: 39.5px;
@@ -375,9 +381,9 @@ body {
   font-size: 12px;
   line-height: 15px;
 
-  color: #ffffff;
+  color:  black;
 
-  background: #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
   border-radius: 10px;
 }
