@@ -1,52 +1,186 @@
-
-.retangulo_escrita{
-    width: 300px;
-    height: 20px;
-    padding: 10px;
-    background-color: lightgray;
-    margin: 20px;
-    margin-left: 30px;
+body {
+    font-family: "Poppins";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    background-color:  #201b2c;   ;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  #primeirotexto
+  {
+    margin: 25px;
+  }
+  .container {
+    display: flex;
    
-}
- .titulo{
-    margin-left: 30px;
- 
- }
-
- .registar{
-    margin: 20px;
-    margin-left: 7vh;
-    width: 264.63px;
-    height: 49px;
-    left: 888.27px;
-    top: 636.14px;
-    font-weight: 700;
-    color: white;
-    background: #78D4DA;
-    border: 1px white;
-    border-radius: 20px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-#voltar{
-    margin: 10px;
-  margin-left: 22vh;
-position: absolute;
-color:rgb(82, 131, 223)
-}
-
-    body{
-        background-image: url(WhatsApp\ Image\ 2023-06-17\ at\ 11.01.48.jpeg);
-        width: 10vw;
-        height: 20vh;
-        margin:0% ;
-        background-repeat: no-repeat;
-    }
-button{
+  }
+  
+  #texto
+  {
+    text-align: center;
+    color: black;
+  }
+  .item1 {
+    background-color: rgb(114, 236, 170);
+    width: 16vw;
+    height: 80vh;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  #bem-vindo {
+    font-size: larger;
+    color:black;
+    text-align: center;
+  }
+  
+  .item2 {
+    display: flex;
+    background-color: #2f2841;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 16px;
+    box-shadow: 5px 10px 40px #2c243d;
+  }
+  #entrar
+  {
+    font-weight: 800;
+    margin-left: 35px;
+    margin-right: 35px;
     width: 10vw;
     height: 6vh;
-    margin-left: 110px;
-    border-radius: 15px;
-    background-color: rgb(120, 212, 218);
-}
+    border-radius: 20px;
+    color:black;
+    border: 2px solid black;
+    background-color: transparent;
+  }
+  input.error {
+    border: 1px solid red;
+  }
+  #criarconta
+  {
+    color: #64f0a5;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  #lado-esq
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #lado-dire
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #item3
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+  #nome
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 180px;
+  }
+  #email
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 180px;
+  }
+  #dataNascimento
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 180px;
+  }
+  #cpf
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 20vw;
+  }
+  #senha
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 20vw;
+  }
+  #confirmarSenha
+  {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px;
+    width: 20vw;
+  }
+  #inputa:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }
+  #termos
+  {
+    margin-left: 50px;
+    display: flex;
+  }
+  #texto0
+  {
+    text-align: center;
+    color: white;
+  }
+  #item4
+  {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #cadastrar
+  {
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 20px;
+    color: black;
+    border: 2px solid black;
+    background-color: #64f0a5;
+    font-weight: 800;
+  }

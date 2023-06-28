@@ -2,97 +2,95 @@ a {
   text-decoration: none;
 }
 body {
+  font-family: "Poppins";
+  background-color: #201b2c;
   margin: 0px;
   width: 100vw;
   height: 100vh;
 }
 #head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #514869;
   margin: 0px;
-  background-color: white;
+  background-color: #514869;
   width: 100vw;
-  height: 6vh;
+  height: 7vh;
 }
 #serviço {
   margin: 0%;
-
-  margin-top: -41px;
-  color: black;
+  margin-top: -45px;
+  color: #00ff88;
 }
 #historico {
-  color: black;
-  margin-top: -25px;
+  color: #00ff88;
+  margin-top: -35px;
   margin-left: 13%;
   width: auto;
   height: auto;
 }
 #pagamentos {
-  color: black;
-  margin-top: -35px;
+  color: #00ff88;
+  margin-top: -40px;
   margin-left: 30%;
   width: auto;
   height: auto;
 }
 #histopagamento {
-  color: black;
-  margin-top: -35px;
+  color: #00ff88;
+  margin-top: -40px;
   margin-left: 45%;
   width: auto;
   height: auto;
 }
 
 #tela {
-  color: black;
-  margin-top: -35px;
+  color: #00ff88;
+  margin-top: -40px;
   margin-left: 65%;
   width: auto;
   height: auto;
 }
 #login {
-  color: black;
-  margin-top: -35px;
+  color: #00ff88;
+  margin-top: -40px;
   margin-left: 85%;
   width: auto;
   height: auto;
 }
 
 #footer {
+  display: flex;
+  align-self: start;
+  flex-direction: row;
   background-color: #333;
   color: white;
-  height: 19vh;
+  height: 15vh;
   width: 100vw;
-  margin-top: 3%;
+  margin-top: 15%;
 }
 #inicio {
   color: white;
   width: auto;
   height: auto;
-  margin-top: -120px;
-  margin-left: 2%;
-  text-decoration: none;
+  margin: 15px;
 }
 
-#voltarinicio {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -5px;
-  margin-left: 2%;
-  text-decoration: none;
-}
 
 #sobre {
   color: white;
   width: auto;
   height: auto;
-  margin-top: -85px;
-  margin-left: 20%;
+  margin-left: 70px;
   text-decoration: none;
 }
 #sobrenos {
   color: white;
   width: auto;
   height: auto;
-  margin-top: -5px;
+  margin-top: -15px;
   margin-left: 20%;
   text-decoration: none;
 }
@@ -101,7 +99,7 @@ body {
   width: auto;
   height: auto;
   margin-top: -80px;
-  margin-left: 35%;
+  margin-left: 475px;
 }
 #suporte1 {
   color: white;
@@ -112,7 +110,7 @@ body {
 }
 #logo {
   margin-left: 50%;
-  margin-top: -110px;
+  margin-top: -170px;
 }
 #red {
   font-size: 25px;
@@ -135,9 +133,9 @@ body {
   height: 3vh;
 }
 #copy {
+  margin-top: -50px;
   align-items: center;
   justify-content: center;
-  margin-top: 23px;
   background-color: black;
   width: 100vw;
   height: 5vh;
@@ -152,12 +150,14 @@ body {
 }
 
 .Caixa-cinza {
+  display: flex;
   margin-top: 40px;
   margin-left: 20px;
   width: 42vw;
   height: 75vh;
-  background-color: grey;
-  border-radius: 10px;
+  background: #2f2841;
+  box-shadow: 0px, 10px 40px #00000056;
+  border-radius: 16px;
 }
 
 form {
@@ -167,35 +167,26 @@ form {
 }
 
 h1 {
-  margin-bottom: 20px;
-  margin-left: 20px;
-
+  margin-left: 50px;
+  color: #64f0a5;
 }
 
 input,
 textarea {
   width: 200px;
   padding: 10px;
-  color: black;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background: #514869;
+  box-shadow: 0px 10px 40px #00000056;
   margin-left: 20px;
   margin-top: 10px;
   border-radius: 10px;
   border: 1px solid;
 }
 
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-  border-color: #000066;
-  box-shadow: 5px 0px 9px #ffff00;
-  background-color: #66ffff;
-  color: black;
-  font-weight: bold;
-}
-
 .enviar {
-  background-color: black;
+  background-color: #64f0a5;
   height: 40px;
   width: 100px;
   margin-left: 80px;
@@ -225,27 +216,20 @@ form label {
   margin-left: 110%;
   color: black;
   background-color: grey;
-  height: 55vh;
-  width: 20vw;
   align-items: center;
   border-radius: 10px;
 }
-#discord {
-  color: black;
-  margin-left: 80px;
-  width: auto;
-  height: auto;
-}
 
 #textdis {
-  margin-left: 40px;
-  width: auto;
-  height: auto;
+  color: #00ff88;
+  margin-left: 0px;
+  width: 45vw;
 }
 #disimg {
-  width: 15vw;
-  height: 35vh;
-  margin-left: 35px;
+  margin-left: -50px;
+  margin-top: 20px;
+  width: 40vw;
+  height: 40vh;
 }
 
 #ajuda {

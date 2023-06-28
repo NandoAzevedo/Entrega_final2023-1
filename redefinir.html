@@ -3,49 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
     <link rel="stylesheet" href="redefinir.css" />
-    <title>redefinir</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="titulo">REDEFINIR A SENHA</h1>
-    <div class="preencher">
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input
-          placeholder="Digite seu email"
-          class="retangulo_escrita"
-          type="text"
-        />
-      </div>
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input
-          placeholder="Digite sua senha"
-          class="retangulo_escrita"
-          type="text"
-        />
-      </div>
-      <div class="quadrado">
-        <label for="nome" class="info"></label>
-        <input
-          placeholder="Digite sua senha novamente"
-          class="retangulo_escrita"
-          type="text"
-        />
-      </div>
-      <div class="quadradot">
-        <button id="registar" onclick="openPopup()">Redefinir Senha</button>
+    <div class="container">
+      <div class="item2">
+        <div class="item1">
+          <div id="primeirotexto">
+            <h1 id="bem-vindo">Bem-Vindo de <br />volta!</h1>
+            <p id="texto">Acesse sua conta <br />agora mesmo</p>
+            <button id="entrar">Entrar</button>
+          </div>
+        </div>
+        <div id="item4">
+          <h1 id="criarconta">Redefir a senha</h1>
+          <div id="item3">
+            <div id="lado-esq">
+    
+             
+            </div>
+            <div id="lado-dire">
+              <input id="cpf" type="text" placeholder="Digite seu e-mail" />
+              <input id="senha" type="text" placeholder="Digite sua senha" />
+              <input
+                id="confirmarSenha"
+                type="text"
+                placeholder="Digite sua senha nova"
+              />
+            </div>
+          </div>
+          <div id="termos">
+            <input type="checkbox" name="opcao1" value="opcao1" />
+            <p id="texto0">Li e concordo com os termos de uso</p>
+          </div>
+         
+          <button id="cadastrar" onclick="openPopup()">Redefinir Senha</button>
         <script>
           function openPopup() {
             window.open(
               "popUpredefiniçãodesenha.html",
               "MeuPopUp",
-              "top=0,left=50,width=760,height=760"
+              "top=0,left=850,width=460,height=460"
             );
           }
         </script>
+        </div>
       </div>
-      <a id="voltar" href="login.html"> Voltar ao login</a>
     </div>
+
+    <script src="cadastro.js"></script>
   </body>
 </html>
