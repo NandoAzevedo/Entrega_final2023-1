@@ -430,7 +430,57 @@ main{
   padding: 0;
   margin: 0;
 }
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+footer {
+  width: 100%;
+  color: aliceblue;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}
 
+#footer_content {
+  font-size: 13px;
+  background-color: #39334b;
+  justify-content: space-between;
+  display: flex;
+  padding: 3rem 3.5rem;
+  flex: 1;
+  padding: 10px;
+}
+.footer-list {
+  padding: 10px;
+}
+#footer_contacts {
+  margin-bottom: 0.75rem;
+}
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.footer-list {
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: rgba(240, 248, 255, 0.568);
+}
+#footer_copy {
+  background-color: #201b2c;
+  display: flex;
+  justify-content: center;
+}
 .aba li {
   background-color: #dcdcdc;
   padding: 10px;

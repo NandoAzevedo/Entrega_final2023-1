@@ -9,13 +9,6 @@ footer {
   width: 100%;
   color: aliceblue;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-  margin-left: 0;
-  margin-right: 0;
-  overflow-x: hidden;
-}
 
 #footer_content {
   font-size: 13px;
@@ -65,11 +58,28 @@ body {
 a {
   text-decoration: none;
 }
+#quadradao
+{
+  display: flex;
+}
 body {
   background-color: #201b2c;
   margin: 0px;
   width: 100%;
   height: 100vh;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 5px;
 }
 header {
   margin-top: 1.5rem;
@@ -117,56 +127,6 @@ header {
   height: auto;
 }
 
-#inicio {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -120px;
-  margin-left: 2%;
-  text-decoration: none;
-}
-
-#voltarinicio {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -5px;
-  margin-left: 2%;
-  text-decoration: none;
-}
-
-#sobre {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -85px;
-  margin-left: 20%;
-  text-decoration: none;
-}
-#sobrenos {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -5px;
-  margin-left: 20%;
-  text-decoration: none;
-}
-#suporte {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -80px;
-  margin-left: 35%;
-}
-#suporte1 {
-  color: white;
-  width: auto;
-  height: auto;
-  margin-top: -5px;
-  margin-left: 35%;
-}
-
-
 
 
 .Caixa-cinza {
@@ -212,7 +172,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-.pesquisar {
+#pesquisar {
   margin-top: 39.5px;
   margin-left: 67px;
   text-align: center;
@@ -296,7 +256,7 @@ header {
   width: 15vw;
   color: white;
 }
-.Cadastro {
+#Cadastro {
   margin-top: 39.5px;
   margin-left: 115px;
   text-align: center;
@@ -350,7 +310,7 @@ header {
   width: 15vw;
   color: white;
 }
-.Enviar {
+#Enviar {
   margin-top: 39.5px;
   margin-left: 115px;
   text-align: center;
@@ -402,7 +362,7 @@ header {
   width: 15vw;
   color: white;
 }
-.Acessar {
+#Acessar {
   margin-top: 39.5px;
   margin-left: 115px;
   text-align: center;
@@ -421,4 +381,43 @@ header {
 }
 #conteudo4 {
   margin: 4%;
+}
+.botao3
+{
+  color: aliceblue;
+}
+.opcoes-servico {
+  margin-top: 180px;
+  box-shadow: 5px 10px 40px #2c243d;
+  background-color: #2f2841;
+  width: 350px;
+  height: 300px;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.opcoes-servico::-webkit-scrollbar {
+  width: 8px;
+}
+
+.opcoes-servico::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;
+}
+
+.opcoes-servico::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+.opc
+{
+  text-align: center;
+  margin: 4px;
+  box-shadow: 5px 10px 40px #2c243d;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 320px;
+  height: 30px;
+  background-color: #39334b;
 }

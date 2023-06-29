@@ -1,0 +1,336 @@
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+  }
+  footer {
+    width: 100%;
+    color: aliceblue;
+  }
+  
+  #footer_content {
+    font-size: 13px;
+    background-color: #39334b;
+    justify-content: space-between;
+    display: flex;
+    padding: 3rem 3.5rem;
+    flex: 1;
+    padding: 10px;
+  }
+  .footer-list {
+    padding: 10px;
+  }
+  #footer_contacts {
+    margin-bottom: 0.75rem;
+  }
+  #footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  .footer-list {
+    list-style: none;
+  }
+  
+  .footer-list .footer-link {
+    color: rgba(240, 248, 255, 0.568);
+  }
+  #footer_copy {
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+  }
+  #botao2 {
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #00ff88;
+  }
+  
+  #footer_social_media .footer-link {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  #quadradao
+  {
+    display: flex;
+  }
+  body {
+    background-color: #201b2c;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+  }
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 5px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  header {
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    display: flex;
+  }
+  #head {
+    margin: 0px;
+    width: 100vw;
+    height: 6vh;
+  }
+  #serviço {
+    display: flex;
+    color: white;
+  }
+  #historico {
+    margin-top: 15px;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+  #pagamentos {
+    margin-top: 15px;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+  #histopagamento {
+    margin-top: 15px;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+  
+  #tela {
+    margin-top: 15px;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+  #login {
+    font-size: xx-large;
+    color: white;
+    width: auto;
+    height: auto;
+  }
+  
+  #imagem-preview {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+#pesquisa-trab
+{
+    margin: 2%;
+}
+  #procura-servico
+  {
+    margin: 5%;
+    justify-content: baseline;
+    padding: 1%;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: #201b2c;
+  }
+  #barra-pesquisa
+  {
+    border-radius: 5px;
+    margin: 2%;
+  }
+  #categorias {
+    border-radius: 10px;
+    overflow: auto;
+    width: 370px;
+    height: 240px;
+    background-color: aliceblue;
+  }
+  
+  /* Estilizando a scrollbar no Chrome/Safari */
+  #categorias::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #categorias::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  #categorias::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  #categorias::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  /* Estilizando a scrollbar no Firefox */
+  #categorias {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
+  #categorias::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  #categorias::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  #categorias::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+.trabalho
+{
+    margin: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #261f36;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 350px;
+    height: 30px;
+}
+.trabaio
+{
+    width: auto;
+    background-color: #201b2c;
+}
+  
+#conteudo
+{
+    justify-content: space-around;
+    display: flex;
+}
+  
+textarea {
+    margin: 5%;
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  .container {
+    margin: 5%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input[type="file"] {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.container::before {
+  content: "Clique aqui para selecionar uma imagem";
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: #888;
+}
+
+.container:hover::before {
+  display: none;
+}
+#partebaixo
+{
+    justify-content: space-around;
+    display: flex;
+}
+.input-wrapper {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  #datas
+  {
+    margin-top: 40px;
+  }
+  #forma2
+  {
+    border-radius: 10px;
+    margin: 3%;
+    background-color: #39334b;
+    height: 30%;
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+  }
+  #forma
+  {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+    margin: 3%;
+    background-color: #39334b;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-back,
+  .button-register {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-back {
+    margin-right: 10px;
+  }
+  
+  .button-register {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .button-register:hover {
+    background-color: #218838;
+  }

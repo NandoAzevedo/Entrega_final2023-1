@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="novoprestar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Tela inicial</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <div id="Serviços">
+      <h1 id="serviço">Serviços</h1>
+    </div>
+    <div id="historico-head">
+      <a href=""><p id="historico">Histórico de serviço</p></a>
+    </div>
+    <div id="pagamentos-head">
+      <a href=""><p id="pagamentos">Pagamentos</p></a>
+    </div>
+    <div id="histopagamento-head">
+      <a href=""><p id="histopagamento">Histórico de Pagamentos</p></a>
+    </div>
+    <div id="tela-head">
+      <a href=""><p id="tela">Suporte</p></a>
+    </div>
+    <div id="login-head">
+      <a href=""><p id="login">Login</p></a>
+    </div>
+  </header>
+  <body>
+    <section id="conteudo">
+      <div id="forma">
+        <div id="procura-servico">
+          <input
+            type="text"
+            id="barra-pesquisa"
+            placeholder="Pesquisar por nome"
+          />
+          <div id="categorias">
+            <button id="pedreiro" class="trabalho" href="#">Pedreiro</button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Profissional de limpeza
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Técnico eletricista
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Técnico de informática
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Freteiro e montador de móveis
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Técnico hidráulico
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">Pintor</button>
+            <button id="pedreiro" class="trabalho" href="#">Mecanico</button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Marido de Aluguel
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">Borracheiro</button>
+            <button id="pedreiro" class="trabalho" href="#">Arquiteto</button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Designer Grafico
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">Manicure</button>
+            <button id="pedreiro" class="trabalho" href="#">Fotografo</button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Banho e Tosa
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">Detetização</button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Organizador de eventos
+            </button>
+            <button id="pedreiro" class="trabalho" href="#">
+              Transporte Particular
+            </button>
+          </div>
+        </div>
+        <textarea
+          placeholder="Descreva seu Trabalho aqui: "
+          id="descricao"
+          name="descricao"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+    </section>
+    <section id="partebaixo">
+      <div id="forma2">
+        <div class="container">
+          <input type="file" id="imagem-input" />
+          <img id="imagem-preview" src="#" alt="Imagem Preview" />
+        </div>
+        <div id="datas">
+          <div class="input-wrapper">
+            <label for="horario-input">Horário:</label>
+            <input type="time" id="horario-input" />
+          </div>
+          <div class="input-wrapper">
+            <label for="data-input">Data:</label>
+            <input type="date" id="data-input" />
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="button-back">Voltar</button>
+        <button class="button-register">Cadastrar</button>
+      </div>
+    </section>
+    <script src="novoprestar.js"></script>
+  </body>
+  <footer>
+    <div id="footer_content">
+      <div class="footer-list" id="footer_contacts">
+        <h1>Prestagem Service</h1>
+        <p>Site de contrato de serviços e prestagem dos mesmos</p>
+
+        <div id="footer_social_media">
+          <a href="#" class="footer_link" id="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#" class="footer_link" id="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <h3>Início</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Voltar à Tela Inicial</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Prestar Serviço</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Contratar Serviço</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3>Sobre Nós</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Informações</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Contato</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">FAQ</a>
+        </li>
+      </ul>
+      <div class="footer-list" id="footer_subscribe">
+        <h3>Nos Envie um E-mail Rápido</h3>
+        <p>Digite sua mensagem e aguarde o contato no seu email</p>
+        <div id="imput_group">
+          <input type="email" id="email" />
+          <button id="botao2">
+            <i class="far fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="footer_copy">&#169; 2023 all rights reserved</div>
+  </footer>
+</html>
