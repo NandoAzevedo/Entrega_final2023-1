@@ -5,6 +5,18 @@
   box-sizing: border-box;
   letter-spacing: 1px;
 }
+.trabalho
+{
+    margin: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #261f36;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 320px;
+    height: 30px;
+}
 footer {
   width: 100%;
   color: aliceblue;
@@ -92,8 +104,11 @@ header {
   height: 6vh;
 }
 #serviço {
+  font-weight: bold;
+  font-size: 35px;
   display: flex;
   color: white;
+  margin-top: 0px;
 }
 #historico {
   margin-top: 15px;

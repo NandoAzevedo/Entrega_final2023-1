@@ -281,12 +281,10 @@ textarea {
     border-radius: 4px;
     font-size: 16px;
   }
-  #datas
-  {
-    margin-top: 40px;
-  }
+
   #forma2
   {
+    box-shadow: 5px 10px 40px #2c243d;
     border-radius: 10px;
     margin: 3%;
     background-color: #39334b;
@@ -297,6 +295,7 @@ textarea {
   }
   #forma
   {
+    box-shadow: 5px 10px 40px #2c243d;
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -333,4 +332,7 @@ textarea {
   
   .button-register:hover {
     background-color: #218838;
+  }
+  .selecionado {
+    background-color: yellow; /* Define o estilo de seleção */
   }

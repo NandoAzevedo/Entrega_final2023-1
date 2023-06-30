@@ -19,3 +19,8 @@ botaoPesquisar.addEventListener('click', function(event) {
     divOpcoesServico.style.display = 'none';
   }
 });
+const button = document.getElementById('Acessar');
+
+button.addEventListener('click', () => {
+  window.location.href = 'perfilnovo.html';
+});
