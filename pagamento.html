@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="main">
+        <div id="valor">
+            <h1>Valor a ser pago: <br> R$450</h1>
+        </div>
+        <div id="cartão">
+            <h1> Pagar com Cartão</h1>
+            <h2>Dados do Cartão</h2>
+                <input type="text"placeholder ="123.459.998.75"id="texto2">
+                <input type="text" placeholder=" MM/AA" id="MM">
+                <input type="text" placeholder="CVC" id ="CVC">
+                <input type="text" placeholder="Nome no cartão" id ="nomecarto">
+                <input type="text" placeholder="Pais ou Região" id ="nomecarto">
+                <select>
+                    <option value="opcao-1">Mastercard</option>
+                    <option value="opcao-2">Visa</option>
+                    <option value="opcao-3">American Express</option>
+                    <option value="opcao-4">Nubank</option>
+
+                  </select>
+                  
+                  <select>
+                    <option value="opcao-1">selecione a quantidade de parcelas</option>
+                    <option value="opcao-2">2x</option>
+                    <option value="opcao-3">4x</option>
+                    <option value="opcao-4">6x</option>
+                    <option value="opcao-5">8x</option>
+                  </select>
+                  <button>Pagar</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

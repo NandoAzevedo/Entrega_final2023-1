@@ -321,8 +321,8 @@ h3 {
   height: 60%;
 }
 .endereço {
-    align-items: center;
-    box-sizing: border-box;
+  align-items: center;
+  box-sizing: border-box;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -335,6 +335,21 @@ h3 {
   background-color: #39334b;
 }
 #Email {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #514869;
+  color: #f0ffffde;
+  font-size: 10pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+
+  width: 80%;
+}
+
+#Email1 {
+  margin-left: 20px;
   border: none;
   border-radius: 10px;
   padding: 15px;
@@ -362,7 +377,35 @@ h3 {
 
   width: 80%;
 }
+#bairro2 {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #514869;
+  color: #f0ffffde;
+  font-size: 10pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+  margin: 20px;
+
+  width: 80%;
+}
 #cidade {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #514869;
+  color: #f0ffffde;
+  font-size: 10pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+
+  width: 80%;
+}
+#telefone {
+  margin-left: 20px;
   border: none;
   border-radius: 10px;
   padding: 15px;
@@ -387,7 +430,7 @@ h3 {
   box-shadow: 0px 10px 40px #00000056;
   outline: none;
   box-sizing: border-box;
-  
+
   width: 80%;
 }
 #cep {
@@ -400,36 +443,49 @@ h3 {
   box-shadow: 0px 10px 40px #00000056;
   outline: none;
   box-sizing: border-box;
- 
+
   width: 80%;
 }
 
 #endereço1 {
-    margin-top: -15%;
+  margin-top: -15%;
   color: #00ff88;
+}
 
+#salvar {
+  width: 80%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #2b134b;
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+#submit {
+  width: 80%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #2b134b;
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
 
-#salvar{
-    width: 80%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    cursor: pointer;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #2b134b;
-    background: #00ff88;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
-}
-
-#alterar-senha{
-    margin-top: 20px;
-    align-items: center;
-    box-sizing: border-box;
+#alterar-senha {
+  margin-top: 20px;
+  align-items: center;
+  box-sizing: border-box;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -443,9 +499,9 @@ h3 {
 }
 
 img {
-    transition: opacity 0.1s ease-in-out;
-  }
-  
-  img:hover {
-    opacity: 0.6;
-  }
+  transition: opacity 0.1s ease-in-out;
+}
+
+img:hover {
+  opacity: 0.6;
+}

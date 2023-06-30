@@ -1,5 +1,5 @@
 
-var nomeInput = document.getElementById("nome");
+var Input = document.getElementById("nome");
 var emailInput = document.getElementById("email");
 var senhaInput = document.getElementById("senha");
 var cpfInput = document.getElementById("cpf");

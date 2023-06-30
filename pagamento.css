@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.main {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #201b2c;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+#valor {
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 35vw;
+  height: 35vh;
+  background-color: #2f2841;
+}
+h1 {
+  color: #00ff88;
+}
+#cartão {
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  width: 40%;
+  height: 91%;
+  background-color: #2f2841;
+  box-shadow: 0px 10px 40px #00000056;
+}
+#texto2 {
+    border-radius: 5px;
+  margin-top: 10px;
+  background-color: #514869;
+  width: 60%;
+  height: 6%;
+  color: white;
+  box-shadow: 0px 10px 40px #00000056;
+}
+p {
+  color: white;
+}
+h2 {
+  color: white;
+}
+#MM {
+    border-radius: 5px;
+  margin-top: 10px;
+  background-color: #514869;
+  width: 60%;
+  height: 6%;
+  color: white;
+  box-shadow: 0px 10px 40px #00000056;
+}
+#CVC {
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #514869;
+  width: 60%;
+  height: 6%;
+  color: white;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+#nomecarto {
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #514869;
+  width: 60%;
+  height: 6%;
+  color: white;
+  box-shadow: 0px 10px 40px #00000056;
+}
+select {
+    border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #514869;
+  box-shadow: 0px 10px 40px #00000056;
+  width: 50%;
+  height: 6%;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+
+button {
+  width: 40%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #2b134b;
+  background: #00ff88;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
