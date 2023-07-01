@@ -1,0 +1,319 @@
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins";
+  background-color: #201b2c;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  margin-top: 1.5rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+#head {
+  margin: 0px;
+  width: 100vw;
+  height: 6vh;
+}
+#serviço {
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  color: white;
+  margin-top: 0px;
+}
+#head {
+  margin: 0px;
+  width: 100vw;
+  height: 6vh;
+}
+#serviço {
+  display: flex;
+  color: white;
+}
+#historico {
+  margin-top: 15px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+.pagamentos {
+  margin-top: 15px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+#histopagamento {
+  margin-top: 15px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+#tela {
+  margin-top: 15px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+#login {
+  font-size: xx-large;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+}
+
+#inicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -120px;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+#voltarinicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+#sobre {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -85px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#sobrenos {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#suporte {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -80px;
+  margin-left: 35%;
+}
+#suporte1 {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 35%;
+}
+
+#sobre {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -85px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+#sobrenos {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: -5px;
+  margin-left: 20%;
+  text-decoration: none;
+}
+
+#footer {
+  display: flex;
+  align-self: start;
+  flex-direction: row;
+  background-color: #333;
+  color: white;
+  height: 16vh;
+  width: 100vw;
+  margin-top: 15%;
+}
+#inicio {
+  color: white;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: auto;
+}
+
+#sobre {
+  color: white;
+  width: auto;
+  height: auto;
+  margin-left: 70px;
+  text-decoration: none;
+  padding: auto;
+}
+#suporte {
+  color: white;
+  margin-left: 70px;
+}
+#logo {
+  margin-left: 25%;
+}
+#Imagem-social {
+  margin-top: 50px;
+  width: 5vw;
+  height: 5vh;
+  margin-left: -200px;
+}
+#rede {
+  width: 15vw;
+  display: flex;
+  margin-left: 250px;
+}
+
+form {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+h1 {
+  margin-left: 50px;
+  color: #64f0a5;
+}
+
+input,
+textarea {
+  width: 20vw;
+  padding: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background: #514869;
+  box-shadow: 0px 10px 40px #00000056;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.enviar {
+  justify-content: center;
+  align-items: center;
+  background-color: #64f0a5;
+  height: 40px;
+  width: 100px;
+  margin-left: 160px;
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  top: 150px;
+  display: flex;
+
+  color: white;
+}
+
+#footer_content {
+  font-size: 13px;
+  background-color: #39334b;
+  justify-content: space-between;
+  display: flex;
+  padding: 3rem 3.5rem;
+  flex: 1;
+  padding: 10px;
+}
+.footer-list {
+  padding: 10px;
+}
+#footer_contacts {
+  margin-bottom: 0.75rem;
+}
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.footer-list {
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: rgba(240, 248, 255, 0.568);
+}
+#footer_copy {
+  background-color: #201b2c;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#botao2 {
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #00ff88;
+}
+
+#footer_social_media .footer-link {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+p {
+  color: white;
+}
+h3 {
+  color: white;
+}
+#cor {
+  color: white;
+}
+#texto3 {
+  margin-left: 50px;
+}
+#email {
+  margin-left: -8%;
+}
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.pagamentos6 {
+    margin-left: -23%;
+  border-radius: 15px;
+  margin-top: 120px;
+  display: flex;
+  width: 40vw;
+  height: 70vh;
+  background-color: #2f2841;
+}
+#paga {
+  border-radius: 5px;
+  margin: 30px;
+  width: 90%;
+  height: 8%;
+  background-color: #514869;
+}
+
+#abertos {
+    margin-left: 5%;
+
+}
+
+#foto{
+    width: 80%;
+    height: 80%;
+}
