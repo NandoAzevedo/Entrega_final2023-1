@@ -292,7 +292,7 @@ h3 {
 }
 
 .pagamentos6 {
-    margin-left: -23%;
+  margin-left: -23%;
   border-radius: 15px;
   margin-top: 120px;
   display: flex;
@@ -309,11 +309,10 @@ h3 {
 }
 
 #abertos {
-    margin-left: 5%;
-
+  margin-left: 5%;
 }
 
-#foto{
-    width: 80%;
-    height: 80%;
+#foto {
+  width: 80%;
+  height: 80%;
 }
