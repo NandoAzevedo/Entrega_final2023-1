@@ -334,5 +334,11 @@ textarea {
     background-color: #218838;
   }
   .selecionado {
-    background-color: yellow; /* Define o estilo de seleção */
+    background-color: #00ff88; /* Define o estilo de seleção */
+  }
+  .scrollable-div {
+    max-height: 150px;
+    overflow: auto;
+    background-color: #261f36;
+    border-radius: 10px;
   }

@@ -13,7 +13,7 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 320px;
+  width: 220px;
   height: 30px;
 }
 footer {
@@ -397,11 +397,12 @@ header {
   color: aliceblue;
 }
 .opcoes-servico {
-  margin-top: 180px;
+  flex: 1;
+  margin-top: 80px;
   box-shadow: 5px 10px 40px #2c243d;
   background-color: #2f2841;
-  width: 350px;
-  height: 300px;
+  width: 250px;
+  height: 600px;
   overflow-y: auto;
   border-radius: 5px;
   padding: 10px;
@@ -430,5 +431,21 @@ header {
   height: 30px;
   background-color: #39334b;
 }
+.categoria-servico {
+  display: none;
+}
 
-
+.nova-div-estilo {
+  margin-left: 30px;
+  margin-top: 80px;
+  box-shadow: 5px 10px 40px #2c243d;
+  background-color: #2f2841;
+  width: 250px;
+  height: 600px;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+}
