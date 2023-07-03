@@ -92,8 +92,11 @@
     height: 6vh;
   }
   #serviço {
+    font-weight: bold;
+    font-size: 35px;
     display: flex;
     color: white;
+    margin-top: 0px;
   }
   #historico {
     margin-top: 15px;

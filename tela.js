@@ -7,8 +7,6 @@ divOpcoesServico.style.display = 'none';
 botaoPesquisar.addEventListener('click', function(event) {
   event.preventDefault();
 
-  // Oculta o botão de pesquisa
-  botaoPesquisar.style.display = 'none';
 
   // Verifica se a div de opções de serviço está visível
   if (divOpcoesServico.style.display === 'none') {
@@ -24,6 +22,10 @@ const button = document.getElementById('Acessar');
 button.addEventListener('click', () => {
   window.location.href = 'perfilnovo.html';
 });
+
+
+
+/*
 document.addEventListener('DOMContentLoaded', function() {
   var buttons = document.querySelectorAll('.trabalho');
   var categories = document.querySelectorAll('.categoria-servico');
@@ -63,3 +65,64 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+*/
+const enviarButton = document.getElementById("Enviar");
+const chatMessages = document.getElementById("chat-messages");
+
+let isChatVisible = true;
+
+enviarButton.addEventListener("click", function() {
+  if (isChatVisible) {
+    chatMessages.style.display = "none";
+  } else {
+    chatMessages.style.display = "block";
+  }
+  
+  isChatVisible = !isChatVisible;
+});
+      // Função para exibir as mensagens no chat
+      function displayMessage(message) {
+        const chatMessages = document.getElementById("chat-messages");
+        const messageElement = document.createElement("p");
+        messageElement.textContent = message;
+        messageElement.classList.add("message");
+      
+        // Adicione a classe "sent" para simular mensagens enviadas pelo usuário
+        // messageElement.classList.add("sent");
+      
+        // Adicione a classe "received" para simular mensagens recebidas
+        // messageElement.classList.add("received");
+      
+        chatMessages.appendChild(messageElement);
+      }
+
+      // Função para enviar uma mensagem
+      function sendMessage() {
+        const messageInput = document.getElementById("message-input");
+        const message = messageInput.value;
+
+        if (message) {
+          displayMessage(message);
+          messageInput.value = "";
+        }
+      }
+
+      // Evento de clique do botão de enviar
+      const sendButton = document.getElementById("send-button");
+      sendButton.addEventListener("click", sendMessage);
+
+      // Evento de pressionar a tecla Enter no campo de entrada de mensagem
+      const messageInput = document.getElementById("message-input");
+      messageInput.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+          sendMessage();
+        }
+      });
+      document.addEventListener('DOMContentLoaded', function() {
+        const cadastrarButton = document.getElementById('Cadastro');
+    
+        cadastrarButton.addEventListener('click', function() {
+            // Redirecionar para a página "novoprestar.html"
+            window.location.href = 'novoprestar.html';
+        });
+    });

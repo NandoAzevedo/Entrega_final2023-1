@@ -20,7 +20,7 @@
       <a href="pagamento.html"> <p id="pagamentos">Pagamentos</p></a>
     </div>
     <div id="histopagamento-head">
-      <a href="pagamento1.html"> <p id="histopagamento">Historico de Pagamentos</p></a>
+      <a href="perfilnovo.html"><p id="histopagamento">Perfil</p></a>
     </div>
     <div id="tela-head">
       <a href="suporte.html"> <p id="tela">Suporte</p> </a>
@@ -36,7 +36,10 @@
 <body>
     <div class="main-login">
         <div class="perfil1">
-            <img src="Img/fotoperfil.jpg"  id="Foto" />
+          <div class="container">
+            <input type="file" id="imagem-input" />
+            <img id="imagem-preview" src="#" alt="Imagem Preview" />
+          </div>
             <p id="Infor">
               Nome do usuario <br />
               Idade: XX <br />
@@ -46,11 +49,7 @@
         </div>
             <div class="alterar">
             <p id="texto-cadastro">Para completar seu cadastro, anexe a foto do seu Documento/RG frente e verso aqui a baixo</p>
-            <img
-            src="Img/troca_de_foto-removebg-preview.png"
-            alt=" foto"
-            id="foto3"
-          />
+            <input type="file" id="imagem-input" />
           <br />
 
             </div>
@@ -79,7 +78,7 @@
                
     </div>
 
-
+    <script src="perfilnovo.js"></script>
 </body>
 
 
