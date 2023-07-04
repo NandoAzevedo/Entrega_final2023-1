@@ -162,7 +162,6 @@
     background-color: aliceblue;
   }
   
-  /* Estilizando a scrollbar no Chrome/Safari */
   #categorias::-webkit-scrollbar {
     width: 8px;
   }
@@ -180,7 +179,6 @@
     background-color: #555;
   }
   
-  /* Estilizando a scrollbar no Firefox */
   #categorias {
     scrollbar-width: thin;
     scrollbar-color: #888 #f1f1f1;
@@ -337,7 +335,7 @@ textarea {
     background-color: #218838;
   }
   .selecionado {
-    background-color: #00ff88; /* Define o estilo de seleção */
+    background-color: #00ff88;
   }
   .scrollable-div {
     max-height: 150px;

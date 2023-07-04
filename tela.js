@@ -12,9 +12,11 @@ botaoPesquisar.addEventListener('click', function(event) {
   if (divOpcoesServico.style.display === 'none') {
     // Exibe as opções de serviço
     divOpcoesServico.style.display = 'block';
+    chatMessages.style.display = "none";
   } else {
     // Oculta as opções de serviço
     divOpcoesServico.style.display = 'none';
+    
   }
 });
 const button = document.getElementById('Acessar');
@@ -74,8 +76,10 @@ let isChatVisible = true;
 enviarButton.addEventListener("click", function() {
   if (isChatVisible) {
     chatMessages.style.display = "none";
+    
   } else {
     chatMessages.style.display = "block";
+    divOpcoesServico.style.display = 'none';
   }
   
   isChatVisible = !isChatVisible;

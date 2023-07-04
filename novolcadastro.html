@@ -30,14 +30,26 @@
                 id="dataNascimento"
                 type="text"
                 placeholder="Data de Nascimento"
+                maxlength="10"
+                oninput="formatarData()"
               />
             </div>
             <div id="lado-dire">
-              <input id="cpf" type="text" placeholder="Digite seu CPF" />
-              <input id="senha" type="text" placeholder="Digite uma Senha" />
+              <input
+                id="cpf"
+                type="text"
+                placeholder="Digite seu CPF"
+                maxlength="14"
+                oninput="formatarCPF()"
+              />
+              <input
+                id="senha"
+                type="password"
+                placeholder="Digite uma Senha"
+              />
               <input
                 id="confirmarSenha"
-                type="text"
+                type="password"
                 placeholder="Repita sua Senha"
               />
             </div>

@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     alert("Cadastro realizado com sucesso!");
     // Redirecionar para a página de sucesso após o cadastro
-    window.location.href = "novologin.html";
+    window.location.href = "index.html";
   }
 
   function realizarLogin(usuario, senha) {
@@ -104,7 +104,78 @@ document.addEventListener("DOMContentLoaded", function() {
   var entrarButton2 = document.getElementById("entrar");
   if (entrarButton2) {
     entrarButton2.addEventListener("click", function() {
-      window.location.href = "novologin.html";
+      window.location.href = "index.html";
     });
   }
 });
+ // Obtém referências para os elementos de entrada
+ const senhaInput = document.getElementById('senha');
+ const confirmarSenhaInput = document.getElementById('confirmarSenha');
+
+ // Adiciona um evento de validação para os elementos de entrada
+ senhaInput.addEventListener('input', validarSenha);
+ confirmarSenhaInput.addEventListener('input', validarSenha);
+
+ function validarSenha() {
+   const senha = senhaInput.value;
+   const confirmarSenha = confirmarSenhaInput.value;
+
+   // Verifica se a senha contém espaços em branco
+   if (senha.includes(' ')) {
+     senhaInput.setCustomValidity('A senha não pode conter espaços em branco.');
+   } else {
+     senhaInput.setCustomValidity('');
+   }
+
+   // Verifica se as senhas coincidem
+   if (senha !== confirmarSenha) {
+     confirmarSenhaInput.setCustomValidity('As senhas não coincidem.');
+   } else {
+     confirmarSenhaInput.setCustomValidity('');
+   }
+ }
+ function formatarCPF() {
+  const cpfInput = document.getElementById('cpf');
+  let cpf = cpfInput.value;
+
+  // Remove qualquer caractere que não seja número
+  cpf = cpf.replace(/\D/g, '');
+
+  // Aplica a formatação do CPF
+  if (cpf.length > 3 && cpf.length <= 6) {
+    cpf = cpf.replace(/(\d{3})(\d{1,3})/, '$1.$2');
+  } else if (cpf.length > 6 && cpf.length <= 9) {
+    cpf = cpf.replace(/(\d{3})(\d{3})(\d{1,3})/, '$1.$2.$3');
+  } else if (cpf.length > 9) {
+    cpf = cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{1,2})/, '$1.$2.$3-$4');
+  }
+
+  // Atualiza o valor no campo
+  cpfInput.value = cpf;
+}
+function validarEmail() {
+  const emailInput = document.getElementById('email');
+  const email = emailInput.value;
+
+  // Verifica se o email contém o símbolo "@"
+  if (!email.includes('@')) {
+    emailInput.setCustomValidity('O e-mail deve conter o símbolo "@"');
+  } else {
+    emailInput.setCustomValidity('');
+  }
+}
+function formatarData() {
+  const dataInput = document.getElementById('dataNascimento');
+  let data = dataInput.value;
+
+  // Remove qualquer caractere que não seja número
+  data = data.replace(/\D/g, '');
+
+  // Verifica o tamanho do valor e aplica a formatação adequada
+  if (data.length > 2) {
+    data = data.replace(/(\d{2})(\d{0,2})(\d{0,4})/, '$1/$2/$3');
+  }
+
+  // Atualiza o valor no campo
+  dataInput.value = data;
+}

@@ -5,15 +5,14 @@ if (barraPesquisa) {
   barraPesquisa.addEventListener('input', function() {
     const termoPesquisa = barraPesquisa.value.toLowerCase();
 
-    // Percorre os botões de trabalho
     for (let i = 0; i < botoesTrabalho.length; i++) {
       const nomeBotao = botoesTrabalho[i].textContent.toLowerCase();
 
-      // Verifica se o nome do botão contém o termo de pesquisa
+
       if (nomeBotao.includes(termoPesquisa)) {
-        botoesTrabalho[i].style.display = 'block';  // Exibe o botão
+        botoesTrabalho[i].style.display = 'block';
       } else {
-        botoesTrabalho[i].style.display = 'none';   // Oculta o botão
+        botoesTrabalho[i].style.display = 'none';
       }
     }
   });

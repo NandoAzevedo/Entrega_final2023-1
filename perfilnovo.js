@@ -10,24 +10,24 @@ document.addEventListener('DOMContentLoaded', function() {
     salvarButton.addEventListener('click', function(event) {
       event.preventDefault();
 
-      // Verifica se todos os campos estão preenchidos
+
       if (emailInput.value && bairroInput.value && cidadeInput.value && casaInput.value && cepInput.value) {
-        // Salva os valores dos campos no Local Storage
+
         localStorage.setItem('email', emailInput.value);
         localStorage.setItem('bairro', bairroInput.value);
         localStorage.setItem('cidade', cidadeInput.value);
         localStorage.setItem('casa', casaInput.value);
         localStorage.setItem('cep', cepInput.value);
 
-        // Exibe uma mensagem de sucesso
+
         alert('Endereço salvo com sucesso!');
       } else {
-        // Exibe um alerta para preencher todos os campos
+
         alert('Por favor, preencha todos os campos.');
       }
     });
 
-    // Preenche os campos com os valores do Local Storage, se existirem
+
     emailInput.value = localStorage.getItem('email') || '';
     bairroInput.value = localStorage.getItem('bairro') || '';
     cidadeInput.value = localStorage.getItem('cidade') || '';
@@ -44,18 +44,17 @@ document.addEventListener('DOMContentLoaded', function() {
     alterarSenhaButton.addEventListener('click', function(event) {
       event.preventDefault();
 
-      // Verifica se todos os campos estão preenchidos
+
       if (emailInput.value && senhaInput.value && telefoneInput.value) {
-        // Aqui você pode adicionar a lógica para alterar a senha, como enviar uma solicitação para o servidor, etc.
-        // Por enquanto, apenas exibe uma mensagem de sucesso
+
         alert('Senha alterada com sucesso!');
       } else {
-        // Exibe um alerta para preencher todos os campos
+
         alert('Por favor, preencha todos os campos.');
       }
     });
 
-    // Preenche os campos com os valores do Local Storage, se existirem
+
     emailInput.value = localStorage.getItem('email') || '';
     senhaInput.value = localStorage.getItem('senha') || '';
     telefoneInput.value = localStorage.getItem('telefone') || '';
